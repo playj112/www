@@ -1,0 +1,42 @@
+/* 경영이념 본문 */
+
+
+#content .content_area #trust>p{margin-bottom: 50px; text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 20px; line-height: 2em; margin-bottom: 80px;}
+#content .content_area #trust>p>span{font-weight: 700}
+
+#content .content_area #trust ul{overflow: hidden; padding: 0 140px; margin-bottom: 170px;}
+#content .content_area #trust ul li{float: left; background: #eaebef; width: 360px;  height: 100px; border-radius: 10px; margin: 0 30px 20px 30px; padding: 20px; overflow: hidden;}
+#content .content_area #trust ul li img{float: left; margin-right: 25px;}
+#content .content_area #trust ul li span{display: block; padding: 20px 0}
+#content .content_area #trust ul li p{font-family: 'Nanum Gothic', sans-serif; font-size: 15px; font-weight: 700;}
+
+
+#content .content_area #self>p{text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 20px; margin-bottom: 80px; line-height: 2em;}
+#content .content_area #self>p>span{font-weight: 700}
+#content .content_area #self ul{overflow: hidden; margin-bottom: 200px;}
+#content .content_area #self ul li{float: left; width: 320px; height: 230px; margin: 0 40px; padding-top: 170px;}
+#content .content_area #self ul li:last-of-type{margin: 0 0 0 35px;}
+#content .content_area #self ul li:nth-of-type(1){background: url(../images/content2/skill.jpg)}
+#content .content_area #self ul li:nth-of-type(2){background: url(../images/content2/marketing.jpg)}
+#content .content_area #self ul li:nth-of-type(3){background: url(../images/content2/management.jpg)}
+
+#content .content_area #self ul li>span{display: block; text-align: center; margin-bottom: 30px; color: #fff; font-family: 'Nanum Gothic', sans-serif; font-size: 15px; font-weight: 700; outline: rgba(255,255,255,.6) double 4px;}
+#content .content_area #self ul li p{color: #fff; text-align: center; font-size: 20px; font-family: 'Nanum Gothic', sans-serif; font-weight: 700;}
+
+
+#content .content_area #consumer>p{text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 20px; margin-bottom: 100px; line-height: 2em}
+#content .content_area #consumer>p span{font-weight: 700}
+
+#content .content_area #consumer{position: relative}
+#content .content_area #consumer ul{margin-bottom: 150px; overflow: hidden}
+#content .content_area #consumer ul::after{content: ''; background: #999; width: 1000px; height: 5px; position: absolute; left: 100px; top: 270px; z-index: -1;}
+#content .content_area #consumer ul li{float: left;  text-align: center; width: 200px; margin: 0 50px}
+#content .content_area #consumer li>p{display: block;  width: 180px; height: 100px; border-radius: 90px; color: #fff; font-family: 'Nanum Gothic', sans-serif; font-size: 20px; margin-left: 10px; margin-bottom: 50px; padding-top: 80px}
+#content .content_area #consumer li:nth-of-type(1) p{background: #394959}
+#content .content_area #consumer li:nth-of-type(2) p{background: #9ba4ab}
+#content .content_area #consumer li:nth-of-type(3) p{background: #394959}
+#content .content_area #consumer li:nth-of-type(4) p{background: #9ba4ab}
+#content .content_area #consumer li>span{line-height: 1.5em}
+
+
+

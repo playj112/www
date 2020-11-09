@@ -1,0 +1,29 @@
+/* 인재상 본문 */
+
+.content_area p{font-family: 'Nanum Gothic', sans-serif; font-size: 20px; font-weight: 700; margin-top: 40px; margin-bottom: 50px; text-align: center; line-height: 2em}
+
+.content_area ul{width: 1200px; height: 1000px; background: url(../images/content1/recr_back.jpg) no-repeat center; position: relative; margin-bottom: 150px;}
+
+.content_area ul li:nth-child(1){position: absolute; left: 240px; top: 50px; width: 350px; height: 350px; border-radius: 175px; background: rgba(130,92,171,.2);}
+.content_area ul li:nth-child(2){position: absolute; left: 30px; top: 370px; width: 350px; height: 350px; border-radius: 175px; background: rgba(92,120,171,.2);}
+.content_area ul li:nth-child(3){position: absolute; left: 320px; top: 600px; width: 350px; height: 350px; border-radius: 175px; background: rgba(90,171,169,.2);}
+.content_area ul li:nth-child(4){position: absolute; right: 130px; top: 560px; width: 350px; height: 350px; border-radius: 175px; background: rgba(93,171,90,.2);}
+.content_area ul li:nth-child(5){position: absolute; right: 170px; top: 150px; width: 350px; height: 350px; border-radius: 175px; background: rgba(183,205,141,.2);}
+
+
+.content_area ul li dt{text-align: center; margin-top: 90px; margin-bottom: 20px; font-weight: bold}
+.content_area ul li dt span{display: block; font-family: 'Nanum Gothic', sans-serif; font-size: 20px; font-weight: 700; margin-bottom: 10px; color: #333}
+
+.content_area ul li:nth-child(1) dt{color: #825cab}
+.content_area ul li:nth-child(2) dt{color: #5c78ab}
+.content_area ul li:nth-child(3) dt{color: #5aaba9}
+.content_area ul li:nth-child(4) dt{color: #5dab5a}
+.content_area ul li:nth-child(5) dt{color: #b7cd8d}
+
+
+
+.content_area ul li dd{text-align: center; line-height: 2em;}
+
+
+
+

@@ -1,0 +1,129 @@
+/* 연혁 본문 */
+
+
+/* 상단 */
+#content .content_area>p{font-family: 'Nanum Gothic', sans-serif; font-size: 20px; text-align: center; margin-bottom: 80px; line-height: 2em;}
+#content .content_area>p span{font-weight: 700;}
+
+#content .content_area>ul{height: 250px; overflow: hidden; margin-bottom: 80px;}
+#content .content_area>ul li{float: left; width: 200px; height: 200px; border-radius: 110px;  box-shadow:5px 5px 10px 1px #999; margin: 0 90px;}
+
+#content .content_area>ul li a{display: block; text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 25px; padding-top: 60px; height: 150px}
+#content .content_area>ul li:nth-of-type(1) a{color: #004b84}
+#content .content_area>ul li:nth-of-type(2) a{color: #047b8a}
+#content .content_area>ul li:nth-of-type(3) a{color: #394959}
+
+#content .content_area>ul li:nth-of-type(1){border:10px solid #004b84; }
+#content .content_area>ul li:nth-of-type(1):hover{background: rgba(0,75,132,.2)}
+#content .content_area>ul li:nth-of-type(2){border:10px solid #047b8a; }
+#content .content_area>ul li:nth-of-type(2):hover{background: rgba(4,123,138,.2)}
+#content .content_area>ul li:nth-of-type(3){border:10px solid #394959; }
+#content .content_area>ul li:nth-of-type(3):hover{background: rgba(57,73,89,.2)}
+
+
+
+
+/* 첫번째 */
+#content .content_area #history_1988{clear: both; position: relative; border-top: 2px solid #004b84; border-bottom: 2px solid #004b84; margin-bottom: 150px;}
+#content .content_area #history_1988>p{padding-top: 10px; font-family: 'Nanum Myeongjo', serif; text-align: right; font-size: 80px; color: #eee;}
+#content .content_area #history_1988>p::before{content: ''; background: #004b84; width: 20px; height: 20px; border-radius: 10px; position: absolute;left: 191px; top: -11px;}
+#content .content_area #history_1988>p::after{content: ''; background: #004b84; width: 2px; height: 1240px; position: absolute; left: 200px; top: -120px;}
+
+#content .content_area #history_1988 ul{margin-left: 230px;}
+#content #history_1988 dl{margin-bottom: 50px;}
+#content #history_1988 dl dt{color: #004b84; font-weight: bold; margin-bottom: 10px;}
+
+#content #history_1988 li:nth-of-type(1) dt::before{content: ''; background: #004b84; width: 10px; height: 10px; border-radius: 5px; position: absolute; left: 196px; top: 105px;}
+
+#content #history_1988 li:nth-of-type(2) dt::before{content: ''; background: #004b84; width: 10px; height: 10px; border-radius: 5px; position: absolute; left: 196px; top: 197px;}
+
+#content #history_1988 li:nth-of-type(3) dt::before{content: ''; background: #004b84; width: 10px; height: 10px; border-radius: 5px; position: absolute; left: 196px; top: 289px;}
+
+#content #history_1988 li:nth-of-type(4) dl{margin-bottom: 20px}
+#content #history_1988 li:nth-of-type(4) dt::before{content: ''; background: #004b84; width: 10px; height: 10px; border-radius: 5px; position: absolute; left: 196px; top: 381px;}
+
+#content #history_1988 li:nth-of-type(6) dt::before{content: ''; background: #004b84; width: 10px; height: 10px; border-radius: 5px; position: absolute; left: 196px; top: 535px;}
+#content #history_1988 li:nth-of-type(6) dl{margin-bottom: 20px}
+
+#content #history_1988 li:nth-of-type(8) dt::before{content: ''; background: #004b84; width: 10px; height: 10px; border-radius: 5px; position: absolute; left: 196px; top: 689px;}
+#content #history_1988 li:nth-of-type(8) dl{margin-bottom: 20px}
+#content #history_1988 li:nth-of-type(9) dl{margin-bottom: 20px}
+
+#content #history_1988 li:nth-of-type(10) dt::before{content: ''; background: #004b84; width: 10px; height: 10px; border-radius: 5px; position: absolute; left: 196px; top: 905px;}
+
+#content #history_1988 li:nth-of-type(11) dl{margin-bottom: 20px}
+#content #history_1988 li:nth-of-type(12) dl{margin-bottom: 20px}
+
+#content #history_1988 li:nth-of-type(5) img{position: absolute; left: 450px; top: 365px;}
+#content #history_1988 li:nth-of-type(12) img{position: absolute; left: 510px; top: 865px;}
+
+
+/* 두번째 */
+
+#content .content_area #history_2000{border-top: 2px solid #047b8a; border-bottom: 2px solid #047b8a; position: relative; margin-bottom: 150px;}
+#content .content_area #history_2000>p{padding-top: 10px; font-family: 'Nanum Myeongjo', serif; text-align: right; font-size: 80px; color: #eee;}
+#content .content_area #history_2000>p::before{content: ''; background: #047b8a; width: 20px; height: 20px; border-radius: 10px; position: absolute;left: 592px; top: -10px;}
+#content .content_area #history_2000>p::after{content: ''; background: #047b8a; width: 2px; height: 1118px; position: absolute; left: 600px; top: -152px;}
+
+#content .content_area #history_2000 ul{margin-left: 620px;}
+#content #history_2000 dl{margin-bottom: 50px;}
+#content #history_2000 dl dt{color: #047b8a; font-weight: bold; margin-bottom: 10px;}
+
+#content #history_2000 li:nth-of-type(1) dt::before{content: ''; background: #047b8a; width: 10px; height: 10px; border-radius: 5px; position: absolute; left: 596px; top: 105px;}
+#content #history_2000 li:nth-of-type(1) dl{margin-bottom: 20px;}
+
+#content #history_2000 li:nth-of-type(3) dt::before{content: ''; background: #047b8a; width: 10px; height: 10px; border-radius: 5px; position: absolute; left: 596px; top: 258px;}
+#content #history_2000 li:nth-of-type(3) dl{margin-bottom: 20px;}
+
+#content #history_2000 li:nth-of-type(5) dt::before{content: ''; background: #047b8a; width: 10px; height: 10px; border-radius: 5px; position: absolute; left: 596px; top: 413px;}
+#content #history_2000 li:nth-of-type(5) dl{margin-bottom: 20px;}
+
+#content #history_2000 li:nth-of-type(7) dt::before{content: ''; background: #047b8a; width: 10px; height: 10px; border-radius: 5px; position: absolute; left: 596px; top: 567px;}
+
+#content #history_2000 li:nth-of-type(8) dt::before{content: ''; background: #047b8a; width: 10px; height: 10px; border-radius: 5px; position: absolute; left: 596px; top: 659px;}
+
+#content #history_2000 li:nth-of-type(9) dt::before{content: ''; background: #047b8a; width: 10px; height: 10px; border-radius: 5px; position: absolute; left: 596px; top: 750px;}
+#content #history_2000 li:nth-of-type(9) dl{margin-bottom: 20px;}
+#content #history_2000 li:nth-of-type(10) dl{margin-bottom: 20px;}
+
+#content #history_2000 li:nth-of-type(3) img{position: absolute; left: 350px; top: 260px;}
+#content #history_2000 li:nth-of-type(10) img{position: absolute; left: 310px; top: 720px;}
+
+
+
+/* 세번째 */
+
+#content .content_area #history_2011{border-top: 2px solid #394959; border-bottom: 2px solid #394959; position: relative; margin-bottom: 150px;}
+#content .content_area #history_2011>p{padding-top: 10px; font-family: 'Nanum Myeongjo', serif; font-size: 80px; color: #eee;}
+#content .content_area #history_2011>p::before{content: ''; background: #394959; width: 20px; height: 20px; border-radius: 10px; position: absolute;left: 980px; top: -10px;}
+#content .content_area #history_2011>p::after{content: ''; background: #394959; width: 2px; height: 1360px; position: absolute; right: 209px; top: -152px;}
+
+#content .content_area #history_2011 ul{text-align: right; margin-right: 230px;}
+#content #history_2011 dl{margin-bottom: 50px;}
+#content #history_2011 dl dt{color: #394959; font-weight: bold; margin-bottom: 10px;}
+
+
+#content #history_2011 li:nth-of-type(1) dt::before{content: ''; background: #394959; width: 10px; height: 10px; border-radius: 5px; position: absolute; right: 205px; top: 105px;}
+
+#content #history_2011 li:nth-of-type(2) dt::before{content: ''; background: #394959; width: 10px; height: 10px; border-radius: 5px; position: absolute; right: 205px; top: 196px;}
+
+#content #history_2011 li:nth-of-type(3) dt::before{content: ''; background: #394959; width: 10px; height: 10px; border-radius: 5px; position: absolute; right: 205px; top: 288px;}
+#content #history_2011 li:nth-of-type(3) dl{margin-bottom: 20px;}
+
+#content #history_2011 li:nth-of-type(5) dt::before{content: ''; background: #394959; width: 10px; height: 10px; border-radius: 5px; position: absolute; right: 205px; top: 442px;}
+#content #history_2011 li:nth-of-type(5) dl{margin-bottom: 20px;}
+
+#content #history_2011 li:nth-of-type(7) dt::before{content: ''; background: #394959; width: 10px; height: 10px; border-radius: 5px; position: absolute; right: 205px; top: 596px;}
+
+#content #history_2011 li:nth-of-type(8) dt::before{content: ''; background: #394959; width: 10px; height: 10px; border-radius: 5px; position: absolute; right: 205px; top: 688px;}
+#content #history_2011 li:nth-of-type(8) dl{margin-bottom: 20px;}
+#content #history_2011 li:nth-of-type(9) dl{margin-bottom: 20px;}
+
+#content #history_2011 li:nth-of-type(10) dt::before{content: ''; background: #394959; width: 10px; height: 10px; border-radius: 5px; position: absolute; right: 205px; top: 904px;}
+#content #history_2011 li:nth-of-type(11) dl{margin-bottom: 20px;}
+
+#content #history_2011 li:nth-of-type(4) img{position: absolute; left: 410px; top: 270px;}
+#content #history_2011 li:nth-of-type(10) img{position: absolute; left: 360px; top: 830px;}
+
+
+

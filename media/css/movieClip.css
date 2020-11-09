@@ -1,0 +1,99 @@
+
+.watch_box1_Title {
+    position: relative;
+    font-size: 3em;
+    line-height: 1.5em;
+    font-family: 'Nanum Myeongjo', serif;
+    text-align: center;
+    color: #fff
+}
+
+.watch_box1_Title:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    width: 150px;
+    height: 4px;
+    margin-left: -75px;
+    background: #efb43c
+}
+
+.watch_box1 {
+    margin-bottom: 200px; padding: 0 10%
+}
+
+.watch_box1 .contentArea01 {
+    position: relative;
+    width: 80%;
+    margin: 80px auto
+}
+
+.imgPart01 {
+    position: relative;
+    cursor: pointer;
+}
+
+.watch_box1 .contentArea01 .imgPart01 .popup-youtube>img {
+    width: 100%;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .3);
+}
+
+.watch_box1 .contentArea01 p {
+    padding-top: 30px;
+    margin-bottom: 100px;
+    color: #fff;
+    text-align: justify;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 1.5em;
+}
+
+.watch_box1 .playBnt {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 110px;
+    height: 110px;
+    margin: -55px 0 0 -55px;
+    border-radius: 94px;
+    background: rgba(0,0,0,.6)
+}
+
+.watch_box1 .imgPart01:hover .playBnt {
+    background: rgba(3,148,153,.6)
+}
+
+.watch_box1 .playBnt img {
+    position: relative;
+    width: auto;
+    top: 50%;
+    left: 50%;
+    margin: -32px 0 0 -20px    
+}
+
+@media screen and (max-width:786px) {
+    
+.watch_box1_Title{font-size: 2em}
+.watch_box1_Title:after{top: 140px}    
+    
+    
+.watch_box1 .contentArea01 p{font-size: 1.2em}
+.watch_box1 .contentArea01{width: 100%}
+}
+
+@media screen and (max-width:640px) {
+ 
+    .watch_box1_Title{font-size: 1.8em}
+}
+
+@media screen and (max-width:480px) {
+    .watch_box1 .playBnt {
+        width: 95px;
+        height: 95px;
+        margin: -48px 0 0 -48px
+    }
+    .watch_box1 .contentArea01 {
+        width: auto
+    }
+}

@@ -1,0 +1,208 @@
+
+.visual{position: relative; width: 2000px; height: 600px; overflow: hidden; top: 245px; left: 50%; margin-left: -1000px}
+.gallery{position:relative; overflow:hidden; width: 6000px; height: 600px; left:0; top:0;}
+.gallery ul li{float:left}
+
+.visual_textbox{position: absolute; top: 200px; width: 2000px;}
+.visual_textbox ul li{font-family: 'Nanum Myeongjo', serif; font-size: 45px; line-height: 1.5em; text-align: center; font-size: 50px; color: #fff; background: rgba(0,75,132,.7); padding: 20px 0; display: none;}
+
+.dock{width:130px; position:absolute; left: 50%; margin-left: -65px; top: 550px;}
+
+.dock span.mbutton{margin-right: 15px; cursor: pointer; display: block; float: left; width:16px; height:16px; background: #fff; border-radius: 8px; transition: all .5s}
+.dock .ps{background:url(../images/stop.png); display: block; cursor: pointer; float:left; width: 20px; height: 20px}
+
+
+
+/* 기업소개 영역 */
+
+#content{width: 1200px; margin: 0 auto;}
+
+#content .intro_top{overflow: hidden; margin-top: 245px;}
+#content .intro_top p{margin: 150px 0 50px 0; color: #333; font-family: 'Nanum Gothic', sans-serif; font-size: 45px; text-align: center}
+#content .intro_top p span{font-weight: 700;}
+
+
+/* 스크립트 연결용 */
+#content .intro_idea{position: relative; top:0; opacity: 0; transition: all 1s; right: -1200px;}
+#content .intro_vision{position: relative; top:0; opacity: 0; transition: all 1s; left: -1200px;}
+#content .intro_rules{position: relative; top:0; opacity: 0; transition: all 1s; right: -1200px;}
+
+#content .intro_idea.boxMove{right:0; opacity: 1}
+#content .intro_vision.boxMove{left: 0; opacity: 1}
+#content .intro_rules.boxMove{right:0; opacity: 1}
+
+
+
+#content .intro_idea{overflow: hidden; margin-bottom: 50px;}
+#content .intro_idea>img{float: left}
+#content .intro_idea div{width: 470px; height: 300px; background: #eaebef; padding: 40px 0 0 30px; float: right}
+
+#content .intro_vision{overflow: hidden; margin-bottom: 50px;}
+#content .intro_vision div{width: 470px; height: 300px; background: #eaebef; float: left; text-align: right; padding: 40px 30px 0 0}
+#content .intro_vision>img{float: right}
+
+#content .intro_rules{overflow: hidden; margin-bottom: 150px;}
+#content .intro_rules>img{float: left}
+#content .intro_rules div{width: 470px; height: 300px; background: #eaebef; padding: 40px 0 0 30px; float: right}
+
+#content .intro h4{font-size: 16px; font-family: 'Nanum Gothic', sans-serif; margin-bottom: 10px}
+#content .intro .sub_title{font-size: 30px; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; margin-bottom: 20px}
+#content .intro .sub_title span{color: #004b84}
+#content .intro .just_p{font-size: 16px; font-family: 'Nanum Gothic', sans-serif; line-height: 1.8em;}
+#content .intro .about_p{font-size: 13px; line-height: 1.5em; font-weight: bold; margin-top: 20px}
+
+#content .intro a{display: block; width: 100px; height: 15px; text-align: center; background: #004b84; padding: 12px; color: #fff; font-weight: bold;}
+#content .intro a:hover{background: rgba(0,75,132,.2); color: #333}
+#content .intro_idea a{margin-top: 50px;}
+#content .intro_vision a{margin: 50px 0 0 340px;}
+#content .intro_rules a{margin-top: 25px;}
+
+
+/* 브랜드소개 영역 */
+
+#content .product{height: 700px; position: relative; width:100%; overflow: hidden}
+#content .product .product_move{position: relative; left:0; top:0; width: 3600px; overflow: hidden; height: 700px}
+#content .product .product_move section{float: left}
+
+/* 방향키 */
+#content .product i{color: #fff; font-size: 40px}
+#content .product .left_go{display: block; opacity: .5; transition: opacity .3s; position: absolute; left: 200px; top: 110px; z-index: 10}
+#content .product .left_go:hover{opacity: 1;}
+#content .product .right_go{display: block; opacity: .5; transition: opacity .3s; position: absolute; right: 200px; top: 110px;z-index: 10}
+#content .product .right_go:hover{opacity: 1;}
+
+/* 타이틀 */
+#content .product .product_title{height: 400px; overflow: hidden}
+#content .product .lavida .product_title{background: url(../images/brand_back01.jpg);}
+#content .product .amplen .product_title{background: url(../images/brand_back02.jpg);}
+#content .product .preange .product_title{background: url(../images/brand_back03.jpg);}
+
+#content .product .product_title h4{color: #fff; font-family: 'Nanum Gothic', sans-serif; font-size: 40px; float: left; margin: 105px 0 105px 0; font-weight: 400; width: 1200px; text-align: center;}
+#content .product .product_title h4 span{font-weight: 700;}
+
+#content .product ul{position: relative;}
+#content .product ul li {width: 150px; height: 350px; position: absolute;}
+#content .product ul li a{display: block; height: 350px;}
+#content .product ul li a img{transform: scale(1);  transition:all .8s}
+#content .product ul li a:hover img{transform: scale(.8);}
+#content .product ul li:nth-of-type(1){left:150px; top: -150px;}
+#content .product ul li:nth-of-type(2){left: 400px; top: -150px;}
+#content .product ul li:nth-of-type(3){left: 650px; top: -150px;}
+#content .product ul li:nth-of-type(4){left: 900px; top: -150px;}
+
+#content .product ul li a p{float: left; width: 150px; text-align: center; margin: 25px 0 15px 0; background: rgba(0,75,132,0); transition:all .8s ease-out; font-weight: bold; color: #004b84}
+#content .product ul li a:hover p{float: left; margin-top: 50px; background: rgba(0,75,132,.2)}
+#content .product ul li:nth-of-type(1) p{}
+#content .product ul li:nth-of-type(2) p{}
+#content .product ul li:nth-of-type(3) p{}
+#content .product ul li:nth-of-type(4) p{}
+#content .product ul li a span{display: block; line-height: 1.5em; text-align: center; font-size: 12px}
+
+
+
+/* 문화경영 영역 */
+
+#content .culture_all{overflow: hidden; margin-bottom: 150px;}
+#content .culture_all li dl{opacity: 0; transition: all .5s ease-out}
+#content .culture_all li:hover dl{opacity: 1}
+
+#content .culture_all ul li{width: 400px; height: 600px; position: relative}
+
+#content .culture_space{float: left; background: url(../images/space.jpg)}
+#content .culture_space img{position: absolute; left: 150px; top: 250px; transform:rotateY(0deg); transition:all 1s; z-index: 1;}
+#content .culture_space:hover img{transform:rotateY(360deg)}
+#content .culture_space dl{width: 400px; height: 600px; background: rgba(209,232,250,0); transition: all 1s ease-out}
+#content .culture_space dl:hover{background: rgba(209,232,250,.8)}
+#content .culture_space dl dt{font-family: 'Nanum Gothic', sans-serif; font-size: 40px; font-weight: 400; text-align: center; padding: 180px 0 30px 0;}
+#content .culture_space dl dt{font-family: 'Nanum Gothic', sans-serif; font-size: 40px; font-weight: 400; text-align: center; padding: 180px 0 30px 0;}
+#content .culture_space dl dt span{font-weight: 700;}
+#content .culture_space dl dd{font-family: 'Nanum Gothic', sans-serif; font-size: 18px; font-weight: 400; text-align: center; line-height: 1.5em; padding: 120px 0 0 0}
+#content .culture_space dl dd span{display: block; padding-top: 20px; font-size: 13px; font-weight: bold}
+
+#content .culture_museum{float: left; background: url(../images/museum.jpg)}
+#content .culture_museum img{position: absolute; left: 150px; top: 250px; transform:rotateY(0deg); transition:all 1s; z-index: 1;}
+#content .culture_museum:hover img{transform:rotateY(360deg)}
+#content .culture_museum dl{width: 400px; height: 600px; background: rgba(183,233,233,0); transition: all 1s ease-out;}
+#content .culture_museum dl:hover{background: rgba(183,233,233,.8);}
+#content .culture_museum dl dt{font-family: 'Nanum Gothic', sans-serif; font-size: 40px; font-weight: 400; text-align: center; padding: 180px 0 30px 0;}
+#content .culture_museum dl dt span{font-weight: 700;}
+#content .culture_museum dl dd{font-family: 'Nanum Gothic', sans-serif; font-size: 18px; font-weight: 400; text-align: center; line-height: 1.5em; padding: 120px 0 0 0}
+#content .culture_museum dl dd span{display: block; padding-top: 20px; font-size: 13px; font-weight: bold}
+
+#content .culture_art{float: right; background: url(../images/art.jpg)}
+#content .culture_art img{position: absolute; left: 150px; top: 250px; transform:rotateY(0deg);  transition:all 1s; z-index: 1;}
+#content .culture_art:hover img{transform:rotateY(360deg);}
+
+#content .culture_art dl{width: 400px; height: 600px; background: rgba(209,232,250,0); transition: all 1s ease-out;}
+#content .culture_art dl:hover{background: rgba(209,232,250,.8);}
+#content .culture_art dl dt{font-family: 'Nanum Gothic', sans-serif; font-size: 40px; font-weight: 400; text-align: center; padding: 180px 0 30px 0;}
+#content .culture_art dl dt span{font-weight: 700;}
+#content .culture_art dl dd{font-family: 'Nanum Gothic', sans-serif; font-size: 18px; font-weight: 400; text-align: center; line-height: 1.5em; padding: 120px 0 0 0}
+#content .culture_art dl dd span{display: block; padding-top: 20px; font-size: 13px; font-weight: bold}
+
+
+/* 소식 영역 */
+
+#content .board_all{position: relative; overflow: hidden;}
+#content .board_all::after{content: ""; width: 1500px; height: 810px; background: #dfedf7; position: absolute; left: 0; top: 0; z-index: -1; transform: rotate(30deg); transform-origin: left top}
+#content .board_title{font-family: 'Nanum Gothic', sans-serif; color: #333; font-size: 45px; font-weight: 700; margin: 0 0 70px 0; text-align: center}
+#content .board_title span{color: #004b84}
+
+#content .news{overflow: hidden; position: relative}
+#content .news h4{font-family: 'Nanum Gothic', sans-serif; color: #333; font-size: 30px; font-weight: 700; float: left; margin: 0 0 20px 100px;}
+#content .news h4 span{font-family: 'Nanum Gothic', sans-serif; font-size: 14px; font-weight: normal}
+#content .news>a{display: block; float: right;}
+#content .news i{color: #333; font-size: 30px; position: absolute; right: 100px; top:5px;}
+#content .news i:hover{color: #333; font-size: 30px; opacity: .4;}
+#content .news .greet_box{width: 1000px; height: 60px; background: #e0f2f2; clear: both; margin: 0 0 100px 100px; box-shadow:5px 5px 10px 1px #ccc; overflow: hidden}
+#content .news .greet_box ul{position: relative}
+#content .news .greet_box ul li a{display: block; font-family: 'Nanum Gothic', sans-serif; color: #333; font-size: 20px; padding: 20px; overflow: hidden}
+#content .news .greet_box ul li a p{float: left}
+#content .news .greet_box ul li a span{float: right;}
+
+#content .event{position: relative}
+#content .event h4{font-family: 'Nanum Gothic', sans-serif; color: #333; font-size: 30px; font-weight: 700; margin: 0 0 20px 100px;}
+#content .event h4 span{font-family: 'Nanum Gothic', sans-serif; font-size: 14px; font-weight: normal}
+#content .event>a{display: block; float: right;}
+#content .event i{color: #333; font-size: 30px; position: absolute; right: 100px; top:5px;}
+#content .event i:hover{color: #333; font-size: 30px; opacity: .4;}
+#content .event .event_box{width: 1000px; height: 300px; box-shadow: 5px 5px 10px 1px #ccc; margin: 0 100px 120px 100px;}
+#content .event .event_box ul{overflow: hidden}
+#content .event .event_box ul li{float: left; height: 300px}
+
+#content .event .event_box ul li .event_hover{width: 250px; height: 300px; background: rgba(0,75,132,.8); position: relative; left: 0; top: -600px; transition: all .5s;}
+#content .event .event_box ul li:hover .event_hover{left: 0; top: -300px;}
+
+#content .event .event_box ul li .event_hover p{font-family: 'Nanum Gothic', sans-serif; color: #fff; font-size: 16px; text-align: center; margin-bottom: 30px; width: 230px; padding: 100px 10px 0}
+#content .event .event_box ul li .event_hover span{font-family: 'Nanum Myeongjo', serif; font-size: 20px; font-weight: 700; color: #fff; display: block; text-align: center;}
+
+#content .event .event_box ul li .index_e_image{width: 250px; height: 300px}
+
+
+/* 뷰티가이드 영역 */
+
+#content .guide_all{overflow: hidden; position: relative; height: 650px;}
+#content .guide_all::after{content: ""; width: 1200px; height: 300px; background: #e0f2f2; position: absolute; left: 0; bottom: 0; z-index: -999}
+#content .guide_title{font-family: 'Nanum Gothic', sans-serif; color: #333; font-size: 45px; font-weight: 700; margin: 100px 0 50px 0; text-align: center}
+#content .guide_title span{color: #004b84}
+
+#content .guide_content{width: 1000px; height: 350px; overflow:hidden; position:relative; left: 100px; box-shadow: 5px 5px 10px 1px #ccc;}
+
+#content .guide_content ul li{width: 700px; height: 400px; position:absolute;}
+#content .guide_content ul li:nth-of-type(1){background:url(../images/structure_01.jpg); left:0; top:0;}
+#content .guide_content ul li:nth-of-type(2){background:url(../images/action_01.jpg); left: 700px; top:0;}
+#content .guide_content ul li:nth-of-type(3){background:url(../images/retouch_01.jpg); left:800px; top:0;}
+#content .guide_content ul li:nth-of-type(4){background:url(../images/complex_01.jpg); left:900px; top:0;}
+
+#content .guide_content ul li dl{width: 630px; height: 270px; padding: 80px 0 0 70px; background: rgba(0,0,0,.2)}
+#content .guide_content ul li dt{font-family: 'Nanum Gothic', sans-serif; color: #fff; font-size: 18px; text-align: center; line-height: 2em; margin-bottom: 5px;}
+#content .guide_content ul li dd:nth-of-type(1){color: #fff; text-align: center;}
+#content .guide_content ul li dd:nth-of-type(2){font-family: 'Nanum Gothic', sans-serif; color: #fff; font-size: 23px; font-weight: 700; text-align: center; margin-top: 50px}
+
+.eventSlideMenu ul li span{width:100px; height:350px; display:block; cursor:pointer; position:relative; left:0; top: -350px; background:#F00; opacity: 0;}
+
+
+
+
+
+

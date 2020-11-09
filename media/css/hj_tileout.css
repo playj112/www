@@ -1,0 +1,45 @@
+
+.grid-image-item,.grid--images .grid-sizer { width: 20%;} /* 단수는 width 값으로 조절 */
+.grid-image-item {float: left; margin-bottom: 50px; overflow: hidden}
+
+.grid-image-item img{
+    display: block;
+    width: 96%; margin: 25px auto;
+
+}
+
+.grid-image-item img:hover{border: 5px solid #fff;}
+
+.grid-image-item h4{
+    display: block;
+    width: 96%; text-align: center; margin: 20px auto;
+    color: #fff;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 1.5em;
+}
+.grid-image-item p{
+  display: block;
+  width: 96%; text-align: center;margin: 0 auto;
+    color: #fff;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 1em;
+}
+
+/*-------------------------------------------------------------------*/
+
+@media screen and (max-width:1024px) {
+    
+  .grid-image-item,
+.grid--images .grid-sizer { width: 25%;}
+
+}
+
+@media screen and (max-width:767px) {
+     .grid-image-item,
+.grid--images .grid-sizer {width: 33.33%;}
+}
+
+@media screen and (max-width:480px){
+    .grid-image-item,
+.grid--images .grid-sizer {width: 50%;}
+}

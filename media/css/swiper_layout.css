@@ -1,0 +1,207 @@
+
+
+/* feature film 영역 */
+.feature .inWrap {
+	position: relative;
+}
+
+.feature .fInner {
+	margin: 0 auto;	width: 85%; overflow: hidden;
+	padding-bottom: 1%;
+}
+
+.feature li {
+	float: left; width: 450px; height: 351px;	margin-bottom: 4em; list-style: none
+}
+
+.feature li a {
+	position: relative;
+	display: block; background: #f0f0f0; height: 100%; margin: 0 3%;
+	
+	text-align: center;
+}
+.feature li span {
+	display: block;
+	position: absolute;
+	bottom: -3em;
+	width: 100%;
+    color:#333;
+	font-size: 1em;
+	font-weight: 700;
+    font-family: 'Nanum Myeongjo'
+}
+
+.feature li:nth-child(1) a{
+	background: url(../images/bzero_01.png) center center no-repeat;
+	background-size: cover; transition: all .5s ease-out;
+}
+.feature li:nth-child(2) a{
+	background: url(../images/bzero_02.png) center center no-repeat;
+	background-size: cover; transition: all .5s ease-out;
+}
+.feature li:nth-child(3) a{
+	background: url(../images/bzero_03.png) center center no-repeat;
+	background-size: cover; transition: all .5s ease-out;
+}
+.feature li:nth-child(4) a{
+	background: url(../images/bzero_04.png) center center no-repeat;
+	background-size: cover; transition: all .5s ease-out;
+}
+.feature li:nth-child(5) a{
+	background: url(../images/bzero_05.png) center center no-repeat;
+	background-size: cover; transition: all .5s ease-out;
+}
+.feature li:nth-child(6) a{
+	background: url(../images/bzero_06.png) center center no-repeat;
+	background-size: cover; transition: all .5s ease-out;
+}
+.feature li:nth-child(7) a{
+	background: url(../images/bzero_07.png) center center no-repeat;
+	background-size: cover; transition: all .5s ease-out;
+}
+.feature li:nth-child(8) a{
+	background: url(../images/bzero_08.png) center center no-repeat;
+	background-size: cover; transition: all .5s ease-out;
+}
+
+
+/*  호버  */
+.feature li:nth-child(1) a:hover{
+	background: url(../images/011.png) center center no-repeat;
+	background-size: cover;
+}
+.feature li:nth-child(2) a:hover{
+	background: url(../images/012.png) center center no-repeat;
+	background-size: cover;
+}
+.feature li:nth-child(3) a:hover{
+	background: url(../images/013.png) center center no-repeat;
+	background-size: cover;
+}
+.feature li:nth-child(4) a:hover{
+	background: url(../images/014.png) center center no-repeat;
+	background-size: cover;
+}
+.feature li:nth-child(5) a:hover{
+	background: url(../images/015.png) center center no-repeat;
+	background-size: cover;
+}
+.feature li:nth-child(6) a:hover{
+	background: url(../images/016.png) center center no-repeat;
+	background-size: cover;
+}
+.feature li:nth-child(7) a:hover{
+	background: url(../images/017.png) center center no-repeat;
+	background-size: cover;
+}
+.feature li:nth-child(8) a:hover{
+	background: url(../images/018.png) center center no-repeat;
+	background-size: cover;
+}
+
+
+/*  */
+
+
+.feature .swiper-pagination {
+	position: relative;
+	margin-top: 30px;
+}
+.feature .swiper-pagination-progress .swiper-pagination-progressbar{
+	background: rgba(0, 0, 0, 1);
+}
+
+.feature .button div {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	background: rgba(0, 0, 0, 1);
+	color: #fff;
+	border-radius: 50%;
+	text-align: center;
+	top: 50%;
+	box-shadow: 2px 2px 5px gray;
+	transition: all 0.2s
+}
+.feature .button div:active {
+	transform: translate(2px,2px);
+}
+.feature .button a {
+	display: block;
+	height: 100%;
+}
+
+.feature .back a {
+	background: url(../images/back.svg) center center no-repeat;
+	background-size: 30px 30px;
+    text-indent: -999px; overflow: hidden;
+}
+
+.feature .next a {
+	background: url(../images/next.svg) center center no-repeat;
+	background-size: 30px 30px;
+    text-indent: -999px; overflow: hidden;
+}
+
+.feature .back {
+	left: 1%;
+}
+.feature .next {
+	right: 1%;
+}
+
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+
+	.feature .button div{
+		width: 40px;
+		height: 40px;
+	}
+	.feature .button div a {
+		background-size: 20px 20px;
+	}
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+
+
+}
+
+/* 소형 모바일 */
+@media screen and (max-width:480px) {
+
+	.feature .fInner {
+		width: 95%;
+	}
+	.feature li {
+		width: 140px; height: 210px;
+	}
+	.feature li span {
+		font-size: 1.1667em;
+	}
+	.feature .button {
+		display: none;
+	}
+	
+}
+
+
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width:480px) {
+	
+}

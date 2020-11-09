@@ -1,0 +1,33 @@
+/* 로그인창 */
+
+#content{width: 600px; margin: 0 auto; padding: 70px 0 100px 0;}
+#content .login_top{overflow: hidden; padding-top: 30px}
+#content h2{font-family: 'Nanum Gothic', sans-serif; font-size: 50px; color: #333; font-weight: 800; position: relative; margin-bottom: 60px; float: left}
+#content h2::after{width: 600px; height: 5px; content: ''; background: #004b84; position: absolute; top: 80px; left: 0}
+#content .form_logo{display: block; width: 100px; height: 100px; background: url(../../images/form_logo.jpg); text-indent: -999px; overflow: hidden; float: right; margin-top: -30px}
+
+.id_pw_input{width: 100%}
+
+.id_pw_input ul li{margin-bottom: 20px}
+.id_pw_input ul li input{width: 590px; font-family: 'Nanum Gothic', sans-serif; border: none; background: #eaebef; padding: 5px; height: 40px; font-size: 16px}
+
+.login_button{margin-bottom: 50px; overflow: hidden}
+.login_button input{cursor: pointer; background: #004b84; color: #fff; padding: 5px; height: 50px; font-size: 16px; border: none; width: 290px; margin-right: 20px; float: left}
+.login_button input:hover{color: #004b84; background: #fff; border: #004b84 solid 1px}
+
+.login_button a{display: inline-block; background: #bbb; color: #fff; padding: 14.5px 5px; font-size: 16px; border: none; width: 280px; float: right; font-family: 'Nanum Gothic', sans-serif; font-size: 16px; text-align: center}
+
+.join_button{overflow: hidden; position: relative;}
+
+.join_button span::before{width: 600px; height: 1px; content: ''; background: #ccc; position: absolute; top: 0; left: 0}
+.join_button span{color: #666; padding-top: 20px; display: block; font-family: 'Nanum Gothic', sans-serif; font-size: 25px; font-weight: 700; margin-bottom: 10px}
+.join_button p{font-family: 'Nanum Gothic', sans-serif; font-weight: 400; color: #999; margin-bottom: 40px}
+
+
+.join_button a{position: absolute; right: 0; top: 50px; display: block; background: #004b84; color: #fff; padding: 14.5px 5px; font-size: 16px; border: none; width: 280px; float: right; font-family: 'Nanum Gothic', sans-serif; font-size: 16px; text-align: center}
+.join_button a:hover{color: #004b84; background: #fff; width: 278px; border: #004b84 solid 1px; padding: 13.5px 5px;}
+
+
+.login_banner{display: block; width: 600px; height: 210px; background: url(../../images/login_banner.jpg);}
+
+

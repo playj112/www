@@ -1,0 +1,77 @@
+/* 모바일_라비다 */
+
+.main{position: relative; margin-bottom: 45px}
+.main img{width: 100%}
+.main p{color: #fff; text-align: center; font-family: 'Nanum Gothic', sans-serif;}
+.main p:nth-of-type(1){font-weight: 700; font-size: 20px; position: absolute; left: 50%; margin-left: -47px; top: 38%;}
+.main p:nth-of-type(2){font-weight: 400; font-size: 13px; position: absolute; left: 50%; margin-left: -62.2px; top: 58%}
+
+/* 요까지 메인비주얼 */
+
+#content .title_area{position: relative; margin-bottom: 45px}
+#content .title_area h2{text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 28px; font-weight: 700; margin-bottom: 35px}
+#content .title_area h2::after{content: ''; width: 35px; height: 3px; background: #004b84; position: absolute; left: 50%; margin-left: -17.5px; top: 48px; }
+#content .title_area p{text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 12px; font-weight: 400; background: #eaebef}
+
+/* 요까지 타이틀 */
+
+
+
+#content .content_area>p:nth-of-type(1){line-height: 2em; text-align: justify; padding: 0 10px; margin-bottom: 40px}
+#content .content_area>p:nth-of-type(2){font-family: 'Nanum Gothic', sans-serif; font-size: 18px; font-weight: 700; text-align: center; margin-bottom: 80px; }
+#content .content_area>p:nth-of-type(2) span{color : #004b84; font-size: 25px; background: rgba(0,75,132,.2)}
+
+#content .content_area .lavida_info>ul>li:first-of-type img{width: 40%; margin-left: 30%; margin-bottom: 30px}
+#content .content_area .lavida_info>ul>li{margin-bottom: 80px}
+#content .content_area .lavida_info>ul>li h3{font-size: 15px; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; text-align: center; line-height: 2em;}
+#content .content_area .lavida_info>ul>li h3 span{color: #004b84; font-size: 20px; font-family: 'Nanum Gothic', sans-serif; font-weight: 700;}
+
+#content .content_area .lavida_info>ul>li:first-of-type h3{margin-bottom: 30px;}
+#content .content_area .lavida_info>ul>li:first-of-type p{line-height: 2em; text-align: justify; padding: 0 10px}
+#content .content_area .lavida_info>ul>li:first-of-type p span{font-weight: bold}
+
+
+
+#content .content_area .lavida_info>ul>li:nth-of-type(2) h3{margin-bottom: 30px}
+#content .content_area .lavida_info>ul>li:nth-of-type(2) p{line-height: 2em; text-align: justify; padding: 0 10px; margin-bottom: 30px;}
+
+#content .content_area .lavida_info>ul>li:nth-of-type(2) ul{overflow: hidden}
+#content .content_area .lavida_info>ul>li:nth-of-type(2) ul li{float: left; width: 44%; margin: 0 3%; margin-bottom: 15px}
+
+#content .content_area .lavida_info>ul>li:nth-of-type(2) dl{text-align: center; padding: 10px; border-radius: 10px;}
+#content .content_area .lavida_info>ul>li:nth-of-type(2) li:nth-of-type(1) dl{background: #d7d0ca}
+#content .content_area .lavida_info>ul>li:nth-of-type(2) li:nth-of-type(2) dl{background: #d7c5b9}
+#content .content_area .lavida_info>ul>li:nth-of-type(2) li:nth-of-type(3) dl{background: #f1ead7}
+#content .content_area .lavida_info>ul>li:nth-of-type(2) li:nth-of-type(4) dl{background: #e5e3e4}
+#content .content_area .lavida_info>ul>li:nth-of-type(2) li:nth-of-type(5) dl{background: #d0d3d8}
+#content .content_area .lavida_info>ul>li:nth-of-type(2) li:nth-of-type(6) dl{background: #dbd2e7}
+
+#content .content_area .lavida_info>ul>li:nth-of-type(2) dt{font-weight: bold; margin-bottom: 10px;}
+#content .content_area .lavida_info>ul>li:nth-of-type(2) dd{font-size: 12px}
+
+
+#content .content_area .lavida_info>ul>li:nth-of-type(3){padding: 0 10px}
+#content .content_area .lavida_info>ul>li:nth-of-type(3) h3{margin-bottom: 30px}
+#content .content_area .lavida_info>ul>li:nth-of-type(3) p:nth-of-type(1){line-height: 2em; text-align: justify; margin-bottom: 20px}
+#content .content_area .lavida_info>ul>li:nth-of-type(3) img{width: 80%; margin-left: 10%}
+#content .content_area .lavida_info>ul>li:nth-of-type(3) p:nth-of-type(2){font-size: 18px; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; margin-bottom: 15px; margin-top: 20px}
+#content .content_area .lavida_info>ul>li:nth-of-type(3) p:nth-of-type(2) span{color: #004b84}
+#content .content_area .lavida_info>ul>li:nth-of-type(3) ul li{line-height: 2em; text-align: justify; margin-bottom: 5px}
+#content .content_area .lavida_info>ul>li:nth-of-type(3) ul li>span{font-weight: bold; text-decoration: underline}
+
+
+#content .content_area .lavida_product ul{overflow: hidden; margin-bottom: 80px}
+#content .content_area .lavida_product ul li{float: left; width: 45%; margin: 0 2.2% 30px 2.2%; border: 1px dotted #ccc; position: relative; overflow: hidden}
+#content .content_area .lavida_product ul li a{display: block}
+#content .content_area .lavida_product ul li img{width: 100%}
+#content .content_area .lavida_product ul li p{font-family: 'Nanum Gothic', sans-serif; font-weight: 700; margin: 10px 0 30px 0; text-align: center}
+#content .content_area .lavida_product>ul>li dl{width: 90%; background: rgba(0,0,0,.6); color: #fff; padding: 5%; position: absolute; left: 0; top: -200px; opacity: 0;}
+
+#content .content_area .lavida_product>ul>li dt{font-weight: bold; text-align: center; margin: 15px 0 20px 0;}
+#content .content_area .lavida_product>ul>li dd{text-align: justify; line-height: 1.5em}
+#content .content_area .lavida_product>ul>li dd:first-of-type{margin-bottom: 10px;}
+#content .content_area .lavida_product>ul>li dd>span{font-weight: bold;}
+
+#content .content_area .lavida_product>ul>li.on dl{transition: all .5s; opacity: 1; top: 0}
+
+

@@ -1,0 +1,39 @@
+/* 문화경영 본문 */
+
+#content .content_area{position: relative}
+#content .content_area>p:first-of-type::before{content: ''; width: 2px; height: 100px; background: #ddd; position: absolute; left: 600px; top: -20px;}
+#content .content_area>p:first-of-type{text-align: center; font-size: 25px; font-family: 'Nanum Gothic', sans-serif; font-weight: 400; padding-top: 100px; padding-bottom: 280px; line-height: 2em}
+#content .content_area>p:first-of-type::after{content: ''; width: 2px; height: 150px; background: #ddd; position: absolute; left: 600px; top: 230px;}
+#content .content_area>p:first-of-type>span{font-weight: 700}
+
+#content .content_area .delay-05s{margin: 0 150px 150px 150px; height: 350px}
+
+#content .content_area h3{font-size: 40px; font-family: 'Nanum Gothic', sans-serif; font-weight: 700;}
+#content .content_area .sub_space h3{margin-bottom: 50px;}
+#content .content_area .sub_museum h3{margin-bottom: 30px;}
+#content .content_area .sub_art h3{margin-bottom: 30px;}
+
+#content .content_area .sub_space{background: url(../images/content4/culture_space.jpg) left top no-repeat;}
+#content .content_area .sub_space div{position: relative; text-align: right}
+#content .content_area .sub_space p{line-height: 1.5em;}
+#content .content_area .sub_space p::after{content: ''; width: 150px; height: 150px; border-radius: 75px; background: #ddd; position: absolute; left: 820px; top: 110px; z-index: -1}
+
+#content .content_area .sub_museum{background: url(../images/content4/culture_museum.jpg) right top no-repeat;}
+#content .content_area .sub_museum div{position: relative;}
+#content .content_area .sub_museum p{margin-bottom: 30px;}
+#content .content_area .sub_museum p::after{content: ''; width: 60px; height: 200px; background: #ddd; position: absolute; left: 120px; top: 100px; z-index: -1}
+#content .content_area .sub_museum li>span{font-weight:bold;}
+#content .content_area .sub_museum li{margin-bottom: 10px;}
+
+#content .content_area .sub_art{background: url(../images/content4/culture_art.jpg) left top no-repeat}
+#content .content_area .sub_art div{position: relative; text-align: right}
+#content .content_area .sub_art p{margin-bottom: 30px;}
+#content .content_area .sub_art p::after{content: ''; width: 120px; height: 120px; background: #ddd; position: absolute; left: 550px; top: 115px; z-index: -1}
+#content .content_area .sub_art li>span{font-weight:bold;}
+#content .content_area .sub_art li{margin-bottom: 10px;}
+
+#content .content_area>p:last-of-type{width: 186px; height: 65px; background: url(../images/content4/space_logo.JPG); text-indent: -999px; overflow: hidden; margin: 0 0 20px 507px;}
+#content .content_area>p:last-of-type::before{content: ''; width: 2px; height: 120px; background: #ddd; position: absolute; left: 600px; bottom: 150px;}
+#content .content_area>p:last-of-type::after{content: ''; width: 2px; height: 120px; background: #ddd; position: absolute; left: 600px; bottom: -160px;}
+#content .content_area>a{font-size: 25px; font-family: 'Nanum Gothic', sans-serif; font-weight: 400; display: block; padding: 10px; width: 230px; margin-left: 470px; border: 1px solid #333; margin-bottom: 200px; transition: all .5s;}
+#content .content_area>a:hover{background: #333; color: #fff}

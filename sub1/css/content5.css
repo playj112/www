@@ -1,0 +1,23 @@
+/* 오시는길 본문 */
+
+
+#content .content_area h3{font-family: 'Nanum Gothic', sans-serif; font-size: 20px; font-weight: 700; margin-bottom: 50px;}
+
+#content .content_area #coreana_map{width: 1200px; height: 600px; margin-bottom: 80px;}
+
+#content .map_all h4{font-family: 'Nanum Gothic', sans-serif; font-size: 18px; font-weight: 700; margin-bottom: 20px}
+
+#content .content_area .map_info{width: 1200px; border-top: 2px solid #004b84; border-bottom: 2px solid #004b84; margin-bottom: 80px;}
+#content .content_area .map_info th{width: 150px; height: 50px; border-right: 1px solid #ccc; background: #eaebef;}
+#content .content_area .map_info td{padding-left: 20px;}
+
+#content .content_area .map_bus{width: 1200px; border-top: 2px solid #004b84; border-bottom: 2px solid #004b84; margin-bottom: 80px;}
+#content .content_area .map_bus tr:first-of-type{background: #eaebef; border-bottom: 1px solid #ccc}
+#content .content_area .map_bus tr:first-of-type td{font-weight: bold; text-align: center}
+#content .content_area .map_bus th{width: 150px; height: 50px; border-right: 1px solid #ccc}
+#content .content_area .map_bus td{padding-left: 20px;}
+
+#content .content_area .map_subway{width: 1200px; border-top: 2px solid #004b84; border-bottom: 2px solid #004b84; margin-bottom: 150px;}
+#content .content_area .map_subway th{background: #eaebef; width: 150px; height: 50px; border-right: 1px solid #ccc}
+#content .content_area .map_subway td{padding-left: 20px;}
+

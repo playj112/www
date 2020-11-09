@@ -1,0 +1,83 @@
+/* 메이크업팁 본문 */
+
+.tabs{position: relative; width: 1200px;}
+.tabs .tab{display: block; width: 600px; position: absolute; font-family: 'Nanum Gothic', sans-serif; font-size: 30px; font-weight: 700; letter-spacing: -1px; color: #ccc; text-align: center; border-bottom: 2px solid #ccc; transition: all .5s;}
+.tabs .tab:hover{background: rgba(0,75,132,.2);}
+
+.tabs .tab1{left: 0; top: -50px; border-right: 1px solid #ccc}
+.tabs .tab2{right: 0; top: -50px;}
+
+.tabs .on{color: #004b84; border-bottom: 2px solid #004b84}
+.tabs .contlist{padding-top: 100px; display: none;}
+
+
+/* 리터치 */
+#content .content_area .retouch{margin-bottom: 150px}
+#content .retouch .retouch_top{width: 400px; height: 280px; background: url(../images/content2/retouch_back.jpg) left top no-repeat; padding-left: 650px; padding-top: 120px; position: relative; margin-bottom: 130px}
+
+#content .retouch .retouch_top p:nth-of-type(1){font-family: 'Nanum Gothic', sans-serif; font-weight: 700; margin-bottom: 15px;}
+#content .retouch .retouch_top p:nth-of-type(2){font-family: 'Nanum Gothic', sans-serif; font-size: 35px; font-weight: 700; margin-bottom: 30px;}
+#content .retouch .retouch_top p:nth-of-type(2)::after{content: ''; width: 600px; height: 1px; background: #ffcc00; position: absolute; left: 550px; top: 200px;}
+#content .retouch .retouch_top p:nth-of-type(3){color: #eaebef; font-family: 'Nanum Myeongjo', serif; font-size: 70px; font-weight: 700; position: absolute; left: 850px; top: 100px; z-index: -2}
+#content .retouch .retouch_top p:nth-of-type(4){line-height: 1.5em; text-align: justify; margin-bottom: 20px;}
+#content .retouch .retouch_top p:nth-of-type(5){font-family: 'Nanum Gothic', sans-serif; font-size: 17px; font-weight: 700}
+
+#content .retouch .slide_box{position: relative; overflow: hidden; width: 1200px; height: 400px;}
+#content .retouch .slide_box i{color: #ffcc00; font-size: 50px; opacity: .2; transition: all .3s}
+#content .retouch .slide_box i:hover{opacity: 1;}
+#content .retouch .slide_box a:nth-of-type(1){position: absolute; left: 0; top: 170px;}
+#content .retouch .slide_box a:nth-of-type(2){position: absolute; left: 1150px; top: 170px;}
+#content .retouch .tipbox{margin : 0 100px; width: 1000px; overflow: hidden; margin-bottom: 50px;}
+#content .retouch .tipbox dl{float: right; width: 550px; height: 330px; padding: 25px 25px; background: #eaebef;}
+
+#content .retouch dl dt:nth-of-type(1){font-family: 'Nanum Gothic', sans-serif; font-size: 25px; font-weight: 700; margin-bottom: 15px;}
+#content .retouch dl dt:nth-of-type(1)>span{font-size: 35px; color: #ffcc00;}
+#content .retouch dl dd{line-height: 1.5em; text-align: justify; padding: 0 20px}
+#content .retouch dl dd:nth-of-type(1){margin-bottom: 35px;}
+#content .retouch dl dt:nth-of-type(2){font-family: 'Nanum Gothic', sans-serif; font-size: 15px; font-weight: 700; margin-bottom: 15px;}
+#content .retouch dl dt:nth-of-type(2)>span{font-size: 20px; color: #004b84;}
+
+
+
+/* 컴플렉스 */
+#content .complex .complex_top{width: 400px; height: 280px; background: url(../images/content2/complex_back.jpg) left top no-repeat; padding-left: 650px; padding-top: 120px; position: relative; margin-bottom: 120px}
+
+#content .complex .complex_top p:nth-of-type(1){font-family: 'Nanum Gothic', sans-serif; font-weight: 700; margin-bottom: 15px;}
+#content .complex .complex_top p:nth-of-type(2){font-family: 'Nanum Gothic', sans-serif; font-size: 35px; font-weight: 700; margin-bottom: 30px;}
+#content .complex .complex_top p:nth-of-type(2)::after{content: ''; width: 600px; height: 1px; background: #ffcc00; position: absolute; left: 550px; top: 200px;}
+#content .complex .complex_top p:nth-of-type(3){color: #eaebef; font-family: 'Nanum Myeongjo', serif; font-size: 70px; font-weight: 700; position: absolute; left: 850px; top: 100px; z-index: -2}
+#content .complex .complex_top p:nth-of-type(4){line-height: 1.5em; text-align: justify; margin-bottom: 20px;}
+#content .complex .complex_top p:nth-of-type(5){font-family: 'Nanum Gothic', sans-serif; font-size: 17px; font-weight: 700;}
+
+/* 첫번째 */
+#content .complex .com_box01{width: 1200px; height: 500px; background: url(../images/content2/com_back01.jpg) center no-repeat; margin-bottom: 200px;}
+#content .complex .com_box01 h4{color: #fff; font-family: 'Nanum Gothic', sans-serif; font-size: 35px; font-weight: 700; padding: 35px 0 25px 20px;}
+#content .complex .com_box01 span{color: #ffcc00; font-family: 'Nanum Gothic', sans-serif; font-size: 17px; font-weight: 700; display: block; padding: 0 0 20px 20px;}
+#content .complex .com_box01>p{color: #fff; font-family: 'Nanum Gothic', sans-serif; padding: 0 0 0 20px; line-height: 1.5em;}
+
+#content .complex .com_box01 ol{overflow: hidden;}
+#content .complex .com_box01 li{float: left; width: 270px; height: 240px; border-radius: 5px; background: #fff; margin: 35px 15px;}
+#content .complex .com_box01 li img{margin: 10px 60px;}
+#content .complex .com_box01 li p{padding: 0 10px; line-height: 1.5em; font-size: 13px; text-align: justify}
+
+
+/* 두번째 */
+#content .complex .com_box02{width: 1200px; height: 500px; background: url(../images/content2/com_back02.jpg) center no-repeat; margin-bottom: 160px; position: relative}
+#content .complex .com_box02 h4::before{content: 'VS'; font-family: 'Nanum Myeongjo', serif; color: #eaebef; font-size: 250px; position: absolute; left: 420px; top: -210px; z-index: -3}
+#content .complex .com_box02 h4{color: #fff; font-family: 'Nanum Gothic', sans-serif; font-size: 35px; font-weight: 700; padding: 35px 20px 25px 0; text-align: right;}
+#content .complex .com_box02 span{color: #ffcc00; font-family: 'Nanum Gothic', sans-serif; font-size: 17px; font-weight: 700; display: block; text-align: right; padding: 0 20px 20px 0;}
+#content .complex .com_box02>p{color: #fff; font-family: 'Nanum Gothic', sans-serif; padding: 0 20px 0 0; line-height: 1.5em; text-align: right;}
+
+#content .complex .com_box02 ol{overflow: hidden;}
+#content .complex .com_box02 li{float: left; width: 270px; height: 240px; border-radius: 5px; background: #fff; margin: 35px 15px;}
+#content .complex .com_box02 li img{margin: 10px 60px;}
+#content .complex .com_box02 li p{padding: 0 10px; line-height: 1.5em; font-size: 13px; text-align: justify}
+
+
+
+
+
+
+
+
+

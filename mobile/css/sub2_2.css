@@ -1,0 +1,68 @@
+/* 모바일_앰플엔 */
+
+.main{position: relative; margin-bottom: 45px}
+.main img{width: 100%}
+.main p{color: #fff; text-align: center; font-family: 'Nanum Gothic', sans-serif;}
+.main p:nth-of-type(1){font-weight: 700; font-size: 20px; position: absolute; left: 50%; margin-left: -47px; top: 38%;}
+.main p:nth-of-type(2){font-weight: 400; font-size: 13px; position: absolute; left: 50%; margin-left: -62.2px; top: 58%}
+
+/* 요까지 메인비주얼 */
+
+#content .title_area{position: relative; margin-bottom: 45px}
+#content .title_area h2{text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 28px; font-weight: 700; margin-bottom: 35px}
+#content .title_area h2::after{content: ''; width: 35px; height: 3px; background: #004b84; position: absolute; left: 50%; margin-left: -17.5px; top: 48px; }
+#content .title_area p{text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 12px; font-weight: 400; background: #eaebef}
+
+/* 요까지 타이틀 */
+
+
+
+#content .content_area .n_intro{margin-bottom: 100px}
+#content .content_area .n_intro img{width: 100%}
+#content .content_area .n_intro .n_intro_text{background: #e5f2e0}
+#content .n_intro .n_intro_text p:nth-child(1){font-family: 'Nanum Gothic', sans-serif; font-size: 20px; font-weight: 700; text-align: center; padding: 30px 0 30px;}
+#content .n_intro .n_intro_text p:nth-child(2){font-family: 'Nanum Gothic', sans-serif; font-size: 16px; font-weight: 700; margin-bottom: 20px; text-align: center; color: #018445}
+#content .n_intro .n_intro_text p:nth-child(3){font-family: 'Nanum Gothic', sans-serif; font-weight: 700; margin-bottom: 20px; line-height: 2em; text-align: center; padding: 0 10px}
+#content .n_intro .n_intro_text p:nth-child(4){font-family: 'Nanum Gothic', sans-serif; font-weight: 700; color: #018445; text-align: center; padding-bottom: 40px}
+
+
+
+#content .n_philo{padding: 0 10px}
+#content .n_philo h3{font-family: 'Nanum Gothic', sans-serif; font-size: 20px; font-weight: 700; color: #018445; margin-bottom: 30px;}
+#content .n_philo>h3>span{color: #333; background: #e5f2e0}
+
+#content .n_philo .n_philo_inner p:nth-of-type(1){font-family: 'Nanum Gothic', sans-serif; font-size: 16px; font-weight: 700; line-height: 2em; text-align: justify; margin-bottom: 30px}
+#content .n_philo .n_philo_inner p:nth-of-type(2){line-height: 2em; margin-bottom: 90px;}
+
+
+#content .n_promise{padding: 0 10px}
+#content .n_promise h3{font-family: 'Nanum Gothic', sans-serif; font-size: 20px; font-weight: 700; color: #018445; margin-bottom: 30px}
+#content .n_promise h3>span{color: #333; background: #e5f2e0}
+
+#content .n_promise .n_promise_inner p:nth-of-type(1){font-family: 'Nanum Gothic', sans-serif; font-size: 16px; font-weight: 700; line-height: 2em; text-align: justify; margin-bottom: 30px}
+#content .n_promise .n_promise_inner p:nth-of-type(2){line-height: 2em; margin-bottom: 30px;}
+#content .n_promise .n_promise_inner dl{margin-bottom: 90px}
+#content .n_promise .n_promise_inner dl dt{font-family: 'Nanum Gothic', sans-serif; font-size: 16px; font-weight: 700; color: #018445; margin-bottom: 10px; text-decoration: underline}
+#content .n_promise .n_promise_inner dl dd{text-align: justify; line-height: 2em; margin-bottom: 20px;}
+
+
+
+#content .n_product ul{overflow: hidden; margin-bottom: 80px}
+#content .n_product ul li{float: left; width: 45%; margin: 0 2.2% 30px 2.2%; border: 1px solid #ccc;}
+#content .n_product ul li a{display: block}
+#content .n_product ul li img{width: 100%}
+#content .n_product ul li p{text-align: center; margin: 20px 0; color: #018445; font-family: 'Nanum Gothic', sans-serif; font-size: 16px; font-weight: 700;}
+
+
+
+
+/* 팝업박스 */
+.content_area .npopbox{width: 280px; background: #fff; padding: 20px; overflow: hidden; position: fixed; left: 50%; margin-left: -160px; top: 50%; margin-top: -162.5px; z-index: 70; display: none}
+.content_area .npopbox dl dt{margin: 35px 0; font-family: 'Nanum Gothic', sans-serif; font-size: 20px; font-weight: 700; color: #018445;}
+.content_area .npopbox dl dd{line-height: 1.5em; margin-bottom: 15px;}
+dd span{font-weight: bold; color: #018445;}
+
+.content_area .npopbox .closeBtn{position: absolute; right: 10px; top: 15px;}
+
+#back_box{width: 100%; height: 100%; background: rgba(57,73,89,.7); position: fixed; left: 0; top: 0; display: none; z-index: 60}
+

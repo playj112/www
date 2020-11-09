@@ -1,0 +1,25 @@
+/* 6depth 공통 */
+
+.visual{width: 2000px; height: 320px; padding-top: 245px; position: relative; left: 50%; margin-left: -1000px; z-index: -1}
+
+.visual h3{color: #fff; font-size: 50px; font-family: 'Nanum Gothic', sans-serif; font-weight: 400; position: absolute; left: 50%; top: 350px; margin-left: -94px;}
+.visual p{color: #fff; font-size: 18px; font-family: 'Nanum Gothic', sans-serif; font-weight: 400; position: absolute; left: 50%; top: 380px; margin-left: -200px;}
+
+
+.sub_nav{position: relative;}
+
+.sub_nav ul{overflow: hidden; width: 1000px; background: rgba(0,75,132,.7); position: absolute; left: 50%; top: -71px; margin-left: -500px;}
+.sub_nav ul li{width: 33.333%; float: left; text-align: center;}
+
+.sub_nav ul li a{display: block; padding: 25px 0; font-family: 'Nanum Gothic', sans-serif; font-size: 18px; font-weight: bold; letter-spacing: -1px; color: #fff; transition: all .5s;}
+.sub_nav ul li a:hover{background: rgba(255,255,255,.5); color: #333; font-weight: bold; letter-spacing: -1px; display: block; padding: 25px 0; font-size: 18px;}
+
+.sub_nav ul li .current{background: #fff; color: #333; font-weight: bold; letter-spacing: -1px; display: block; padding: 25px 0; font-size: 18px;}
+
+#content{width: 1200px; margin: 0 auto;}
+
+#content .title_area{position: relative}
+#content .line_map{float: right; margin: 30px 50px 85px 0;}
+#content .title_area h2{clear: both; font-family: 'Nanum Gothic', sans-serif; font-size: 65px; font-weight: 700; text-align: center;}
+#content .title_area h2::after{content: ''; width: 250px; height: 5px; background: #004b84; position: absolute; left: 50%; top: 230px; margin-left: -125px;}
+#content .title_area p{font-family: 'Nanum Gothic', sans-serif; font-size: 18px; font-weight: 400; text-align: center; padding-top: 55px; margin-bottom: 115px;}

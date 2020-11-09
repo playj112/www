@@ -1,0 +1,70 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Coreana-CEO인사말</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/febc580729.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub1common.css">
+    <link rel="stylesheet" href="css/content1.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    
+     <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+   
+    <? include "../common/sub_head.html" ?>
+
+    <? $_GET['num']=1;
+      include "common/sub1_nav.html"; 
+    ?>
+
+   
+    
+    <!-- 본문콘텐츠영역 -->
+    <article id="content">
+        <div class="title_area">
+            <div class="line_map">
+                <span>Home </span>&gt;<span > 기업소개 </span>&gt;<strong> CEO 인사말</strong>
+            </div>
+            <h2>CEO 인사말</h2>
+            <p>CEO GREETINGS</p>
+        </div>
+        <div class="content_area">
+            <p>고객 만족을 최우선으로 생각하는 코리아나 홈페이지를 방문해 주신 여러분을 진심으로 환영합니다.</p>
+            <span>코리아나 화장품 CEO | 유상옥</span>
+            <a href="http://www.yusangok.pe.kr/" title="새창에서 열림" target="_blank">CEO 홈페이지 바로가기</a>
+            <img src="images/content1/ceo.jpg" alt="CEO유상옥">
+            <div class="text_box">
+                <p>1988년 11년 15일 설립된 코리아나는 창사이래 지금까지 눈부신 성장을 이룩해 한국의 화장품 시장을 선도하고 있습니다.</p>
+                <br>
+                <p>코리아나는 여성의 삶 속에 태어나, 여성의 아름다움을 위해 '<span>고객만족</span>', '<span>정도경영</span>', '<span>명품주의</span>' 라는 고객 여러분들과의 3가지 약속을 지키면서 지난 30년간을 함께 해 왔고, 코리아나에 대한 고객 여러분들의 신뢰와 격려가 있었기에 가능했다고 믿습니다.</p>
+                <br>
+                <p>고객만족도 1위 기업상, 국가 고객만족도 1위 기업 (국내화장품), 마케팅 대상 명품상, 한국인재경영대상 최우수상 등은 지금까지 고객을 먼저 생각하는 코리아나에 고객 여러분들이 붙여주신 자랑스런 애칭이었습니다. 코리아나는 앞으로도 자연을 통한 아름다움의 예술을 창조하며 사회에 희망과 아름다움의 메세지를 전하고 인류의 아름다운 행복을 추구해 나아갈 것 입니다.</p>
+                <br>
+                <p><span>WWW.COREANA.COM</span> 은 한국 여성의 외적인 미뿐만 아니라 내적인 아름다움을 대표하는 온라인 뷰티 공간으로 다양한 미용정보와 함께 편안한 여성 정보의 장이 되겠습니다. 여성과 함께하는 화장품 전문 기업으로서, 여성의 가치를 존중하고 사랑하는 코리아나에 여러분의 지속적이고 따뜻한 눈길과 격려를 부탁드립니다.</p>
+                <br>
+                <br>
+                <span>여기는 아름다운 나라, 코리아나입니다.</span>
+            </div>
+        </div>
+        
+    </article>
+    
+   
+   <? include "../common/sub_foot.html" ?> 
+    
+</body>
+</html>

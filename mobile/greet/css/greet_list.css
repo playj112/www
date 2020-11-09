@@ -1,0 +1,47 @@
+/* 공지사항 리스트 */
+#content_area{position: relative; margin: 0 20px}
+#list_search{overflow: hidden; position: absolute; left: 50%; margin-left: -147.7px}
+#list_search #list_search1{float: left}
+#list_search #list_search2{float: left}
+#list_search #list_search3{float: left}
+
+#list_search #list_search1 select{font-family: 'Nanum Gothic', sans-serif; font-size: 13px; padding: 10px; border: solid 1px #ccc; margin-right: 10px}
+#list_search #list_search2 input{padding: 10px; border: 1px solid #ccc; font-family: 'Nanum Gothic', sans-serif; font-size: 13px; margin-right: 10px}
+#list_search #list_search3 input{font-family: 'Nanum Gothic', sans-serif; font-size: 13px; padding: 10px; border: none; background: #004b84; color: #fff; cursor: pointer;}
+
+
+/* 여기까지 잡음 ㅠㅠ */
+
+#list_total{margin-top: 100px; margin-bottom: 30px; margin-left: 2%; font-family: 'Nanum Gothic', sans-serif; font-size: 13px; float: left}
+
+.scale{float: right; margin-top: 100px; margin-right: 2%; padding: 3px}
+
+
+
+
+#list_top_title{clear: both; padding: 0 2%}
+
+#list_top_title ul{overflow: hidden; border-top: #333 solid 1.5px; padding: 20px 0; background: #efeff1; border-bottom: 1px solid #ccc}
+#list_top_title ul li{float: left; font-family: 'Nanum Gothic', sans-serif; font-size: 13px; font-weight: 700; text-align: center}
+
+#list_top_title ul li:nth-child(1){width: 8%}
+#list_top_title ul li:nth-child(2){width: 73%}
+#list_top_title ul li:nth-child(3){width: 19%}
+
+#list_content{padding: 0 2%}
+#list_content #list_item{overflow: hidden; border-bottom: 1px solid #ccc;}
+#list_content #list_item #list_item1{float: left; width: 8%; text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 12px; padding: 20px 0}
+#list_content #list_item #list_item2{float: left; width: 73%; text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 12px; padding: 20px 0}
+#list_content #list_item #list_item4{float: left; width: 19%; text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 12px; padding: 20px 0}
+
+#list_content #list_item #list_item2:hover{text-decoration: underline}
+
+#page_button{margin-top: 30px}
+#page_button #page_num{text-align: center; margin-bottom: 10px}
+
+
+#page_button #button{overflow: hidden; margin-bottom: 120px}
+#page_button #button a{display: block; float: right; background: #004b84; color: #fff; text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 13px; width: 50px; height: 18px; padding: 10px; margin-left: 10px}
+#page_button #button a:hover{background: #fff; color: #004b84; border: 1px solid #004b84; width: 48px; height: 16px;}
+
+

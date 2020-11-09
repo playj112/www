@@ -1,0 +1,111 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Coreana-오시는길</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/febc580729.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub1common.css">
+    <link rel="stylesheet" href="css/content5.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=2955b29d268435ecc6106bd44dc921f8"></script>
+    <script src="js/map2.js"></script>
+    
+     <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <? include "../common/sub_head.html" ?>
+    
+    <!-- 메인비주얼영역 -->
+    <div class="visual">  
+        <img src="common/images/sub1_visual.jpg" alt="">
+        <h3>기업소개</h3>
+        <p>Company Introduction</p>   
+    </div>
+    
+    <!-- 서브네비영역 -->  
+    <div class="sub_nav">
+        <ul>
+            <li><a id="nav1" href="sub1_1.html">CEO 인사말</a></li>
+            <li><a id="nav2" href="sub1_2.html">경영이념</a></li>
+            <li><a id="nav3" href="sub1_3.html">연혁</a></li>
+            <li><a id="nav4" href="sub1_4.html">문화경영</a></li>
+            <li><a class="current" href="sub1_5.html">오시는길</a></li>
+        </ul>
+    </div>
+    
+    <!-- 본문콘텐츠영역 -->
+    <article id="content">
+        <div class="title_area">
+            <div class="line_map">
+                <span>Home </span>&gt;<span > 기업소개 </span>&gt;<strong> 오시는길</strong>
+            </div>
+            <h2>오시는길</h2>
+            <p>DIRECTIONS</p>
+        </div>
+        <div class="content_area">
+           <h3>광교 본사 <i class="fas fa-building"></i></h3>
+           <div id="coreana_map"></div>
+           <div class="map_all">
+               <table class="map_info">
+                   <tr>
+                       <th>주소</th>
+                       <td>경기도 수원시 영통구 센트럴타운로 114-4 (이의동 1322-7번지) (주)코리아나화장품</td>                  
+                   </tr>
+                   <tr>
+                       <th>TEL.</th>
+                       <td>080-022-5013 | 031-722-7000</td>               
+                   </tr>
+               </table>
+               <h4><i class="fas fa-bus"></i> 버스로 찾아오시는 길</h4>
+               <table class="map_bus">
+                   <tr>
+                       <th>정류장</th>
+                       <td>버스번호</td>
+                   </tr>
+                   <tr>
+                       <th>광교테크노밸리</th>
+                       <td>7-2번, 85번, 80번, 720-2번, 7002번, 3002번, M5115번, M5121번, M5422번</td>
+                   </tr>
+                   <tr>
+                       <th>연무중학교</th>
+                       <td>13-4번, 9-2번, 7-2번, 80번, 88-1번</td>
+                   </tr>
+                   <tr>
+                       <th>광교고등학교</th>
+                       <td>13-4번, 9-2번, 5-4번, 81번, 7-2번, 32번, 53번, 85번, 80번, 88-1번, 670번</td>
+                   </tr>
+                   <tr>
+                       <th>수원광교박물관</th>
+                       <td>60번, 660번, 720-1번, 720-2번, 4000번, 8165번, 8852번</td>
+                   </tr>
+               </table>
+               <h4><i class="fas fa-subway"></i> 지하철로 찾아오시는 길</h4>
+               <table class="map_subway">
+                   <tr>
+                       <th>신분당선</th>
+                       <td>광교중앙(아주대)역</td>
+                   </tr>              
+               </table>
+           </div>
+        </div>
+        
+    </article>
+    
+    <? include "../common/sub_foot.html" ?>
+    
+    
+</body>
+</html>

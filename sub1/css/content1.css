@@ -1,0 +1,17 @@
+/* 인사말 본문 */
+
+
+#content .content_area{position: relative}
+#content .content_area>p{font-family: 'Nanum Myeongjo', serif; font-size: 20px; font-weight: 700; text-align: center; margin: 0 0 250px 0;}
+#content .content_area>span{margin-left: 275px; font-size: 16px;}
+#content .content_area>span::after{content: ''; width: 300px; height: 300px; border-radius: 150px; background: #eaebef; position: absolute; left: 350px; top: 135px; z-index: -1}
+#content .content_area a{display: block; width: 230px; margin-left: 295px; font-family: 'Nanum Gothic', sans-serif; font-size: 20px; font-weight: 700; padding-top: 45px;}
+#content .content_area a::before{content: ''; width: 50px; height: 5px; background: #004b84; position: absolute; left: 445px; top: 312px;}
+#content .content_area img{margin: -60px 300px 0 500px; position: relative; z-index: -2; margin-bottom: 100px;}
+
+#content .text_box{margin: 0 50px 150px 50px;}
+#content .text_box p{font-size: 16px; color: #333; text-align: justify; line-height: 2em; margin-bottom: 25px}
+#content .text_box p span{font-weight: bold; color: #004b84;}
+#content .text_box>span{font-family: 'Nanum Myeongjo', serif; font-size: 20px; font-weight: 700;}
+
+

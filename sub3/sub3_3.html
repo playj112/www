@@ -1,0 +1,112 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Coreana-EVENT</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/febc580729.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub3common.css">
+    <link rel="stylesheet" href="css/content3.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    
+     <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <? include "../common/sub_head.html" ?>
+    
+    <? $_GET['num']=3;
+      include "common/sub3_nav.html"; 
+    ?>
+    
+    <!-- 본문콘텐츠영역 -->
+    <article id="content">
+        <div class="title_area">
+            <div class="line_map">
+                <span>Home </span>&gt;<span > 홍보센터 </span>&gt;<strong> EVENT</strong>
+            </div>
+            <h2>EVENT</h2>
+            <p>코리아나의 이벤트 소식</p>
+        </div>
+        <div class="content_area">
+              <section class="ing_event">
+                  <h3>진행중인 이벤트</h3>
+                  <p>현재 진행중인 코리아나만의 특별한 이벤트를 확인해보세요.</p>
+                  <ul>
+                      <li>
+                          <a href="#"><img src="../images/event01.jpg" alt="이벤트"></a>
+                          <dl>
+                              <dt>앰플엔 애프터 마스크 케어템</dt>
+                              <dd>예민해진 피부 앰플엔으로 진정케어!</dd>
+                              <dd><span>기간 : </span>2020.06.01. - 2020.06.21.</dd>
+                          </dl>
+                      </li>
+                      <li>
+                          <a href="#"><img src="../images/event02.jpg" alt="이벤트"></a>
+                          <dl>
+                              <dt>뉴 앰플엔 출시 기념</dt>
+                              <dd>센탈카밍샷 1만명 무료증정 이벤트</dd>
+                              <dd><span>기간 : </span>2020.03.09. - 2020.04.03.</dd>
+                          </dl>
+                      </li>
+                      <li>
+                          <a href="#"><img src="../images/event03.jpg" alt="이벤트"></a>
+                          <dl>
+                              <dt>ONLY 코리아나몰 신규회원만</dt>
+                              <dd>특별 혜택 추가쿠폰으로 쇼핑즐기기</dd>
+                              <dd><span>기간 : </span>2020.02.01. - 2020.02.29.</dd>
+                          </dl>
+                      </li>
+                      <li>
+                          <a href="#"><img src="../images/event04.jpg" alt="이벤트"></a>
+                          <dl>
+                              <dt>2020 첫구매 고객 대상</dt>
+                              <dd>20년에는 2만원 SET상품 구매하자!</dd>
+                              <dd><span>기간 : </span>2020.01.06. - 2020.01.16.</dd>
+                          </dl>
+                      </li>
+                  </ul>
+              </section>
+              <section class="past_event">
+                  <h3>지난 이벤트</h3>
+                  <p>기한이 지난 이벤트를 확인하실 수 있습니다.</p>
+                  <ul>
+                      <li>
+                          <a href="#"><img src="../images/event05.jpg" alt="이벤트"></a>
+                          <dl>
+                              <dt>더블 시카 더블 이벤트</dt>
+                              <dd>시카 디펜스 크림 더블로 1+1 한정구성</dd>
+                              <dd><span>기간 : </span>2020.01.06. - 2020.01.31.</dd>
+                          </dl>
+                      </li>
+                      <li>
+                          <a href="#"><img src="../images/event06.jpg" alt="이벤트"></a>
+                          <dl>
+                              <dt>코리아나 서포터즈 5기</dt>
+                              <dd>서포터즈 특별상품에 추가 혜택까지</dd>
+                              <dd><span>기간 : </span>2018.08.08. - 2018.08.22.</dd>
+                          </dl>
+                      </li>
+                  </ul>
+              </section>    
+        </div>
+        
+    </article>
+    
+    
+    <? include "../common/sub_foot.html" ?> 
+    
+    
+</body>
+</html>

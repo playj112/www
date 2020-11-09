@@ -1,0 +1,116 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Coreana-CF갤러리</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/febc580729.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub3common.css">
+    <link rel="stylesheet" href="css/content2.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    
+     <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <? include "../common/sub_head.html" ?>
+    
+    <? $_GET['num']=2;
+      include "common/sub3_nav.html"; 
+    ?>
+    
+    <!-- 본문콘텐츠영역 -->
+    <article id="content">
+        <div class="title_area">
+            <div class="line_map">
+                <span>Home </span>&gt;<span > 홍보센터 </span>&gt;<strong> CF갤러리</strong>
+            </div>
+            <h2>CF갤러리</h2>
+            <p>CF GALLERY</p>
+        </div>
+        <div class="content_area">
+            <div class="mediaWrap" id="mediaWrap">
+               <div id="mediaBox" class="mediaBox">
+                 <video id="main_v" src="images/content2/cf_04.mp4" controls="controls" poster="images/content2/vid_04.jpg"></video>
+                 <div class="titleDate">
+                     <p class="title">프리앤제 CF</p>
+                     <p class="sub_title">| PREANGE BRAND FILM</p>
+                     <p class="sub_text">연약한 피부를 위한 세심한 더마 처방. 피부를 향한 진심을 담아 진정성있게 만듭니다.</p>
+                 </div>
+               </div>
+             </div>
+             <ul class="mediaList">
+                 <li>
+                     <a href="#mediaWrap" title=" 해당 동영상 재생">
+                         <i class="far fa-play-circle"></i>
+                         <img src="images/content2/vid_01.jpg" alt="">
+                     </a>
+                     <div class="titleDate">
+                         <h3 class="title">엔시아 CF</h3>
+                         <p class="sub_title">| 새로운 필터 어플?</p>
+                         <p class="sub_text">NO! 엔시아 노필터 카메라 마스크! 이제 카메라 필터말고 필터 마스크로 찰칵하자!</p>
+                         <p class="video" style="display: none">images/content2/cf_01.mp4</p>
+                         <p class="poster" style="display: none">images/content2/vid_01.jpg</p>
+                     </div>
+                 </li>
+                 <li>
+                     <a href="#mediaWrap" title=" 해당 동영상 재생">
+                         <i class="far fa-play-circle"></i>
+                         <img src="images/content2/vid_02.jpg" alt="">
+                     </a>
+                     <div class="titleDate">
+                         <h3 class="title">라비다 CF</h3>
+                         <p class="sub_title">| 피부가 탱탱해지는 신호</p>
+                         <p class="sub_text">라비다 파워셀 라인을 통해 피부가 탱탱해지는 신호, 지금 올라갑니다!</p>
+                         <p class="video" style="display: none">images/content2/cf_02.mp4</p>
+                         <p class="poster" style="display: none">images/content2/vid_02.jpg</p>
+                     </div>
+                 </li>
+                 <li>
+                     <a href="#mediaWrap" title=" 해당 동영상 재생">
+                         <i class="far fa-play-circle"></i>
+                         <img src="images/content2/vid_03.jpg" alt="">
+                     </a>
+                     <div class="titleDate">
+                         <h3 class="title">앰플엔 CF</h3>
+                         <p class="sub_title">| 오늘 같은 날엔 앰플엔</p>
+                         <p class="sub_text">53가지 더마 스킨케어 앰플엔으로 오늘의 피부고민을 케어해보세요.</p>
+                         <p class="video" style="display: none">images/content2/cf_03.mp4</p>
+                         <p class="poster" style="display: none">images/content2/vid_03.jpg</p>
+                     </div>
+                 </li>
+                 <li>
+                    <a href="#mediaWrap" title=" 해당 동영상 재생">
+                         <i class="far fa-play-circle"></i>
+                         <img src="images/content2/vid_04.jpg" alt="">
+                     </a>
+                     <div class="titleDate">
+                         <h3 class="title">프리앤제 CF</h3>
+                         <p class="sub_title">| PREANGE BRAND FILM</p>
+                         <p class="sub_text">연약한 피부를 위한 세심한 더마 처방. 피부를 향한 진심을 담아 진정성있게 만듭니다.</p>
+                         <p class="video" style="display: none">images/content2/cf_04.mp4</p>
+                         <p class="poster" style="display: none">images/content2/vid_04.jpg</p>
+                     </div>
+                 </li>
+             </ul>     
+        </div>
+        
+    </article>
+    
+    <? include "../common/sub_foot.html" ?>
+    
+    <script src="js/cf_video.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,92 @@
+/* 피부기초지식 */
+
+
+.tabs{position: relative; width: 1200px;}
+.tabs .tab{display: block; width: 600px; position: absolute; font-family: 'Nanum Gothic', sans-serif; font-size: 30px; font-weight: 700; letter-spacing: -1px; color: #ccc; text-align: center; border-bottom: 2px solid #ccc; transition: all .5s;}
+.tabs .tab:hover{background: rgba(0,75,132,.2);}
+
+.tabs .tab1{left: 0; top: -50px; border-right: 1px solid #ccc}
+.tabs .tab2{right: 0; top: -50px;}
+
+.tabs .on{color: #004b84; border-bottom: 2px solid #004b84}
+.tabs .contlist{padding-top: 100px; display: none;}
+
+
+/* 본문 시작 */
+
+#content .skin_structure .structure_top{margin-bottom: 30px}
+#content .skin_structure .structure_top>p:nth-of-type(1){font-family: 'Nanum Myeongjo', serif; font-size: 45px; font-weight: 700; text-align: center;}
+#content .skin_structure .structure_top p:nth-of-type(2){font-family: 'Nanum Gothic', sans-serif; font-size: 30px; text-align: center; color: #ccc; margin-bottom: 80px;}
+#content .skin_structure .structure_top ul li h4{font-family: 'Nanum Gothic', sans-serif; font-size: 18px; font-weight: 700; text-align: center; margin-bottom: 15px; color: #0089d1}
+#content .skin_structure .structure_top ul li p{line-height: 1.5em; text-align: justify; margin-bottom: 80px;}
+
+
+
+#content .skin_structure .structure_con{width: 1200px; height: 1100px; background: url(../images/content1/structure.jpg) center no-repeat;}
+
+#content .structure_con>ul{position: relative;}
+#content .structure_con>ul>li{border: 1px solid #ccc; position: absolute;}
+
+
+/* 1번째 박스 */
+#content .structure_con>ul>li:first-child::before{content: ''; width: 100px; height: 5px; background: #bdd0e5; position: absolute; left: 349px; top: 250px;}
+#content .structure_con>ul>li:first-child{width: 348px; height: 498px; left: 40px; top: 45px}
+#content .structure_con>ul>li:first-child h5{width: 348px; height: 35px; padding-top: 14px; background: #bdd0e5; text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 18px; font-weight: 700;}
+#content .structure_con>ul>li:first-child img{margin: 20px 123px;}
+#content .structure_con>ul>li:first-child p:first-of-type{text-align: center; padding-bottom: 15px; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; font-size: 16px;}
+#content .structure_con>ul>li:first-child>p:last-of-type{padding: 0 10px; line-height: 1.5em; text-align: justify;}
+#content .structure_con>ul>li:first-child>ul{padding: 15px 30px; font-weight: bold}
+#content .structure_con>ul>li:first-child>ul li{margin-bottom: 10px; list-style: square;}
+
+
+/* 2번째 박스 */
+#content .structure_con>ul>li:nth-child(2)::before{content: ''; width: 100px; height: 5px; background: #0089d1; position: absolute; left: -100px; top: 280px;}
+#content .structure_con>ul>li:nth-child(2){width: 348px; height: 468px; left: 810px; top: 150px;}
+#content .structure_con>ul>li:nth-child(2) h5{width: 348px; height: 35px; padding-top: 14px; background: #0089d1; text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 18px; font-weight: 700; color: #fff;}
+#content .structure_con>ul>li:nth-child(2) img{margin: 20px 123px;}
+#content .structure_con>ul>li:nth-child(2) p:first-of-type{text-align: center; padding-bottom: 15px; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; font-size: 16px;}
+#content .structure_con>ul>li:nth-child(2)>p:last-of-type{padding: 0 10px; line-height: 1.5em; text-align: justify;}
+#content .structure_con>ul>li:nth-child(2)>ul{padding: 15px 30px; font-weight: bold;}
+#content .structure_con>ul>li:nth-child(2)>ul li{margin-bottom: 10px; list-style: square;}
+
+
+/* 3번째 박스 */
+#content .structure_con>ul>li:nth-child(3)::before{content: ''; width: 100px; height: 5px; background: #004b84; position: absolute; left: 349px; top: 60px;}
+#content .structure_con>ul>li:nth-child(3){width: 348px; height: 428px; left: 40px; top: 650px;}
+#content .structure_con>ul>li:nth-child(3) h5{width: 348px; height: 35px; padding-top: 14px; background: #004b84; text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 18px; font-weight: 700; color: #fff;}
+#content .structure_con>ul>li:nth-child(3) img{margin: 15px 123px;}
+#content .structure_con>ul>li:nth-child(3) p:first-of-type{text-align: center; padding-bottom: 15px; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; font-size: 16px; line-height: 1.5em;}
+#content .structure_con>ul>li:nth-child(3)>p:last-of-type{padding: 0 10px; line-height: 1.5em; text-align: justify;}
+
+
+/* 탭 변환지점 */
+#content .skin_structure{margin-bottom: 100px;}
+
+
+#content .skin_action{margin-bottom: 150px;}
+#content .skin_action>p:nth-of-type(1){font-family: 'Nanum Myeongjo', serif; font-size: 45px; font-weight: 700; text-align: center;}
+#content .skin_action p:nth-of-type(2){font-family: 'Nanum Gothic', sans-serif; font-size: 30px; text-align: center; color: #ccc; margin-bottom: 130px;}
+
+/* 리스트 시작 */
+#content .skin_action ul{}
+#content .skin_action ul li{height: 200px; margin-bottom: 100px; overflow: hidden; border-radius: 30px;}
+#content .skin_action li h4{font-family: 'Nanum Gothic', sans-serif; font-size: 20px; font-weight: 700; margin: 0 0 20px 380px;}
+#content .skin_action li dl{width: 820px; float: right;}
+#content .skin_action dl dt{font-family: 'Nanum Gothic', sans-serif; font-weight: 700;  color: #0089d1; margin-bottom: 20px; font-size: 17px;}
+#content .skin_action dl dd{line-height: 1.5em; text-align: justify;}
+
+
+#content .skin_action ul li:first-of-type{background: url(../images/content1/a_01.jpg) no-repeat left top}
+#content .skin_action ul li:nth-of-type(2){background: url(../images/content1/a_02.jpg) no-repeat left top}
+#content .skin_action ul li:nth-of-type(3){background: url(../images/content1/a_03.jpg) no-repeat left top}
+#content .skin_action ul li:nth-of-type(4){background: url(../images/content1/a_04.jpg) no-repeat left top}
+#content .skin_action ul li:nth-of-type(5){background: url(../images/content1/a_05.jpg) no-repeat left top}
+#content .skin_action ul li:nth-of-type(6){background: url(../images/content1/a_06.jpg) no-repeat left top}
+#content .skin_action ul li:nth-of-type(7){background: url(../images/content1/a_07.jpg) no-repeat left top}
+#content .skin_action ul li:nth-of-type(8){background: url(../images/content1/a_08.jpg) no-repeat left top}
+#content .skin_action ul li:nth-of-type(9){background: url(../images/content1/a_09.jpg) no-repeat left top}
+#content .skin_action ul li:nth-of-type(10){background: url(../images/content1/a_10.jpg) no-repeat left top}
+
+
+
+

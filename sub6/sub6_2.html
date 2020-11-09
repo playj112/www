@@ -1,0 +1,120 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Coreana-채용안내</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/febc580729.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub6common.css">
+    <link rel="stylesheet" href="css/content2.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    
+     <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <? include "../common/sub_head.html" ?>
+    
+    <? $_GET['num']=2;
+      include "common/sub6_nav.html"; 
+    ?>
+    
+    <!-- 본문콘텐츠영역 -->
+    <article id="content">
+        <div class="title_area">
+            <div class="line_map">
+                <span>Home </span>&gt;<span > 인재채용 </span>&gt;<strong> 채용안내</strong>
+            </div>
+            <h2>채용안내</h2>
+            <p>Recruitment Guide</p>
+        </div>
+        <div class="content_area">
+             <section class="recruit_field">
+                 <h3>채용 모집 분야</h3>
+                 <p>지원서류는 연중 상시접수하며, 수시채용계획이 있을 경우, 우선 미리 접수된 지원서에 대해 서류심사를 거쳐 본인의 면접가능 여부를 확인 후, 면접을 실시합니다.</p>
+                 <span>(지원서 중 적격자가 없거나 부족할 경우는 별도의 채용공고를 통해 추가로 지원서를 접수합니다.)</span>
+                     <h4>- 고졸/대학(2년제)졸</h4>
+                         <table>
+                             <tr>
+                                 <th>모집부문</th>
+                                 <th>성별</th>
+                                 <th>담당업무</th>
+                                 <th>근무지역</th>
+                             </tr>
+                             <tr>
+                                 <td>교육강사</td>
+                                 <td>여</td>
+                                 <td>제품교육</td>
+                                 <td>전국</td>
+                             </tr>
+                             <tr>
+                                 <td>일반사무직</td>
+                                 <td>남/여</td>
+                                 <td>각 팀 및 사무소 소속 일반사무</td>
+                                 <td>전국</td>
+                             </tr>
+                         </table>
+                     <h4>- 대학(4년제)/대학원졸</h4>
+                         <table id="uni_json"></table>
+             </section>
+             <section class="duty_notice">
+                 <h3>채용 직무 안내</h3>
+                 <p>자세한 직무 내용은 채용공고 게시판을 통해서 확인이 가능합니다.</p>
+                 <table>
+                     <tr>
+                         <th>직무부문</th>
+                         <th colspan="3">세부직무</th>
+                     </tr>
+                     <tr>
+                         <td>마케팅</td>
+                         <td>Brand기획</td>
+                         <td>BM/디자인</td>
+                         <td>미용연구/고객상담</td>
+                     </tr>
+                     <tr>
+                         <td>영업</td>
+                         <td>영업전략/지원(직판)</td>
+                         <td>영업전략/지원(시판)</td>
+                         <td>영업전략/지원(방판)</td>
+                     </tr>
+                     <tr>
+                         <td>연구</td>
+                         <td>피부과학</td>
+                         <td>기초제품</td>
+                         <td>색조제품</td>
+                     </tr>
+                     <tr>
+                         <td>생산</td>
+                         <td>생산관리</td>
+                         <td>품질보증</td>
+                         <td>자재관리</td>
+                     </tr>
+                     <tr>
+                         <td>경영지원</td>
+                         <td>기획/총무</td>
+                         <td>인사/교육</td>
+                         <td>재무/회계/경영정보(전산)</td>
+                     </tr>
+                 </table>
+             </section>
+        </div>
+        
+    </article>
+    
+    <? include "../common/sub_foot.html" ?>
+    
+    <script src="js/data_json.js"></script>
+    
+</body>
+</html>

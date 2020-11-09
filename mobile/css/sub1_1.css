@@ -1,0 +1,30 @@
+/* 모바일_ceo인사말 */
+
+.main{position: relative; margin-bottom: 45px}
+.main img{width: 100%}
+.main p{color: #fff; text-align: center; font-family: 'Nanum Gothic', sans-serif;}
+.main p:nth-of-type(1){font-weight: 700; font-size: 20px; position: absolute; left: 50%; margin-left: -37.6px; top: 38%;}
+.main p:nth-of-type(2){font-weight: 400; font-size: 13px; position: absolute; left: 50%; margin-left: -67.5px; top: 58%}
+
+/* 요까지 메인비주얼 */
+
+#content .title_area{position: relative; margin-bottom: 45px}
+#content .title_area h2{text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 28px; font-weight: 700; margin-bottom: 35px}
+#content .title_area h2::after{content: ''; width: 35px; height: 3px; background: #004b84; position: absolute; left: 50%; margin-left: -17.5px; top: 48px; }
+#content .title_area p{text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 12px; font-weight: 400; background: #eaebef}
+
+/* 요까지 타이틀 */
+
+
+#content .content_area{padding: 0 10px; position: relative}
+
+#content .content_area>p{font-family: 'Nanum Myeongjo', serif; font-size: 16px; font-weight: 700; line-height: 2em; text-align: center; margin-bottom: 280px}
+#content .content_area>span{color: #004b84; font-size: 13px; position: absolute; left: 50%; margin-left: -120px; top: 95px; line-height: 1.5em;}
+
+#content .content_area img{width: 200px; position: absolute; left: 50%; margin-left: -90px; top: 120px;}
+
+#content .content_area .text_box{font-size: 14px; line-height: 2em; text-align: justify; margin-bottom: 50px}
+#content .content_area .text_box span{color: #004b84; font-weight: bold}
+
+
+

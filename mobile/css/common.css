@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* 모바일 코딩 필수 공통영역 */
+* {
+ margin:0;
+ padding:0;
+ -webkit-text-size-adjust:none; }
+body {
+ color:#333;
+ font-size:14px;
+ font-family:돋움, Dotum; }
+img, fieldset { border:0; vertical-align:top }
+ul, ol, li, dl { list-style:none; }
+h1, h2, h3, h4, h5, h6 {
+ font-size:100%;
+ font-weight:normal; }
+hr { display:none; }
+a { color:inherit; }
+a, a:link {
+ color:#333;
+ text-decoration:none; }
+a:visited { color:#333; }
+a:hover, a:active {
+ color:#333;
+ text-decoration:none; }
+em, i, address {
+ font-style:normal;
+ font-weight:normal; }
+legend, caption {
+ display:none;
+ clear:both; }
+input, textarea, select, button, table {
+ font-size:inherit;
+ font-family:inherit;
+ line-height:inherit; }
+section, nav, article, aside, hgroup, header, footer { display:block }
+textarea, input {
+ border-radius:1px;}
+textarea { resize:none; }
+label { cursor:pointer; }
+table{border-collapse: collapse}
+
+.hidden, #skipNav{display: block; position: absolute; left: -1000%; top: 0; width: 1px; height: 1px; overflow: hidden; color: #fff}
+
+/* 전체 공통 */
+#wrap{width:100%; height: 100%; overflow:hidden;}
+
+
+/* ios 버튼잡기 */
+select, input[type=submit], input[type=submit] {-webkit-appearance:none;}
+
+
+
+/* 헤더 공통 */
+
+#headerArea{width: 100%; height: 50px; border-bottom: #ccc solid 1px;}
+
+#headerArea .headerInner{position: relative}
+#headerArea .wrapHeader{overflow: hidden; position: relative}
+
+#headerArea .wrapHeader h1 a{display: block; position: absolute; left: 50%; margin-left: -37.5px; top: 15px; background: url(../images/h_logo.jpg); width: 75px; height: 20px; text-indent: -999px; overflow: hidden;}
+#headerArea .wrapHeader>a{float: right; padding: 13px 15px 10px 10px;}
+#headerArea .wrapHeader a i{color: #004b84;font-size: 22px}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+#headerArea .wrapHeader h1 a{ background: url(../images/h_logo_x2.jpg); background-size: 75px 20px; } }
+
+/* 네비 */
+.back_box{width:100%; height:100%; background:#000; opacity:0.7; position: absolute; left:0; top:0; z-index: 15; display:none}
+
+
+#gnb{width: 70%; height: 100%; position:absolute; right:-100%; top:0; background:#fff; opacity:0; z-index: 20}
+
+#gnb .gnb_top{height: 80px; overflow: hidden; border-bottom: 1px solid #004b84}
+#gnb .gnb_top img{width: 35px; margin-top: 10px; margin-left: 15px}
+#gnb .gnb_top .mclose{display: block; position: absolute; right: 10px; top: 3px; font-size: 25px; color: #333; padding: 10px}
+#gnb li{border-bottom: 1px solid #ccc; line-height: 0}
+#gnb li a{display: block; padding: 25px;}
+#gnb li ul{background: rgba(0,75,132,.2); display: none}
+#gnb .depth1 h3 a{font-family: 'Nanum Gothic', sans-serif; font-weight: 700; font-size: 15px;}
+#gnb .depth1 ul li a{font-family: 'Nanum Gothic', sans-serif; font-weight: 400;}
+#gnb .depth1 i{float: right; margin: -7px 2px 0 0}
+
+
+/* 푸터 공통 */
+
+#footerArea{}
+#footerArea .footer_top{background: #ccc;}
+#footerArea .footer_top ul{overflow: hidden;}
+#footerArea .footer_top ul li{float: left; width: 25%; line-height: 0;}
+#footerArea .footer_top ul li a{display: block; color: #004b84; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; font-size: 14px; text-align: center; padding: 25px 0; }
+#footerArea .footer_top address{color: #666; font-size: 12px; line-height: 1.5em; text-align: center; margin-bottom: 15px}
+#footerArea .footer_top p{color: #004b84; font-size: 16px; font-weight: bold; text-align: center; padding-bottom: 15px}
+
+#footerArea .footer_bottom{background: #004b84}
+#footerArea .footer_bottom p{color: #fff; text-align: center; font-size: 11px; padding: 5px 0}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

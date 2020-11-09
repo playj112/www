@@ -1,0 +1,341 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name='keywords' content='화장품,코스메틱,피부,피부관리,뷰티'>
+    <meta name='description' content='고객을 위한 대한민국 코스메틱 브랜드 코리아나입니다.'>
+    <title>Coreana</title>
+    
+    <link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="common/css/common.css">
+    <link rel="stylesheet" href="maincss/main.css">
+    
+    <script src="mainjs/mainpopup.js"></script>
+    <script src="common/js/prefixfree.min.js"></script>
+    
+    <script src="https://kit.fontawesome.com/febc580729.js" crossorigin="anonymous"></script>
+    
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <? include "common/main_head.html" ?>
+    
+        
+        <div class="visual">
+             <div class="gallery">
+                     <ul>
+                          <li><a href="#"><img src="images/visual_01.jpg" alt=""></a></li>
+                          <li><a href="#"><img src="images/visual_02.jpg" alt=""></a></li>
+                          <li><a href="#"><img src="images/visual_03.jpg" alt=""></a></li>
+                    </ul>
+             </div>
+             <div class="visual_textbox">
+                   <ul>
+                       <li>Globalization<br>끊임없는 기술 개발을 통해 세계로 뻗어나가는 코리아나</li>
+                       <li>Specialization<br>전문성을 기반으로 화장품 업계를 선도하는 코리아나</li>
+                       <li>Conservation<br>한국의 아름다움과 역사를 통해 미래로 가는 코리아나</li>
+                   </ul>
+              </div>
+              <div class="dock">
+              	<span class="mbutton  btn1" ></span>
+              	<span class="mbutton  btn2" ></span>
+             	<span class="mbutton  btn3" ></span>
+              	<span class="ps"></span>
+              </div>
+        </div>
+        
+        <article id="content">
+           <h2 class="hidden">본문콘텐츠영역</h2>
+            <div class="intro">
+                <h3 class="hidden">기업소개</h3>
+                <div class="intro_top">
+                    <p><span>고객만남</span>에서 <span>제품개발</span>까지</p>
+                </div>
+                <div class="intro_idea">
+                    <img src="images/idea.jpg" alt="">
+                    <div>
+                    <h4>경영이념</h4>
+                    <p class="sub_title"><span>행복</span>을 나누는 코리아나</p>
+                    <p class="just_p">신뢰를 쌓아가는 회사</p>
+                    <p class="just_p">스스로 일하는 회사</p>
+                    <p class="just_p">소비자를 위하는 회사</p>
+                    <p class="about_p">코리아나(Coreana) 화장품이 지향하는 3가지의 핵심 경영이념을<br>통해 언제나 믿을 수 있는 기업이 되겠습니다.</p>
+                    <a class="arrow" href="sub1/sub1_2.html">+자세히보기</a>
+                    </div>
+                </div>
+                <div class="intro_vision">
+                    <div>
+                    <h4>3대비젼</h4>
+                    <p class="sub_title"><span>스스로</span> 일하는 회사</p>
+                    <p class="just_p">기술개발로 세계를 지향</p>
+                    <p class="just_p">뉴마케팅으로 장업계 TOP을 지향</p>
+                    <p class="just_p">내실기업으로 모범기업을 지향</p>
+                    <p class="about_p">코리아나(Coreana) 화장품은 전직원의 목표로서 3대 비젼을 세우고,<br>이를 위하여 더욱 발전하는 기업이 되겠습니다.</p>
+                    <a class="arrow" href="sub1/sub1_2.html">+자세히보기</a>
+                    </div>
+                    <img src="images/vision.jpg" alt="">
+                </div>
+                <div class="intro_rules">
+                    <img src="images/rules.jpg" alt="">
+                    <div>
+                    <h4>영업방침</h4>
+                    <p class="sub_title"><span>소비자</span>를 위한 회사</p>
+                    <p class="just_p">가격준수</p>
+                    <p class="just_p">현금거래</p>
+                    <p class="just_p">유통별 상품차별화</p>
+                    <p class="just_p">철저한 교육</p>
+                    <p class="about_p">언제나 소비자를 중심으로 생각하는 코리아나(Coreana)는<br>4가지 영업방침으로 고객의 입장에서 생각하는 기업이 되겠습니다.</p>
+                    <a class="arrow" href="sub1/sub1_2.html">+자세히보기</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product">
+                <h3 class="hidden">브랜드소개</h3>
+                <a class="left_go product_arrow" href="#"><i class="fas fa-chevron-left"><span class="hidden">왼쪽으로 이동</span></i></a>
+                <a class="right_go product_arrow" href="#"><i class="fas fa-chevron-right"><span class="hidden">오른쪽으로 이동</span></i></a>
+                
+                <div class="product_move">
+                <section class="lavida">
+                    <div class="product_title">
+                       <h4><span>LAVIDA :</span> Power Cell Care</h4>
+                    </div>
+                    <ul>
+                        <li><a href="sub2/sub2_1.html">
+                            <img class="brand_01" src="images/brand01.png" alt="파워셀 에센스 미스트">
+                            <p>파워셀 에센스 미스트</p>
+                            <span>빙하수와 시그날로좀의<br>미세 분사 미스트</span>
+                        </a></li>
+                        <li><a href="sub2/sub2_1.html">
+                            <img class="brand_02" src="images/brand02.png" alt="파워셀 에센스 에스">
+                            <p>파워셀 에센스 에스</p>
+                            <span>첫 피부를 위한 퍼스트<br>이중 기능성 에센스</span>
+                        </a></li>
+                        <li><a href="sub2/sub2_1.html">
+                            <img class="brand_03" src="images/brand03.png" alt="파워셀 마스크 에스">
+                            <p>파워셀 마스크 에스</p>
+                            <span>파워셀 에센스 에스의<br>유효성분을 담은 마스크</span>
+                        </a></li>
+                        <li><a href="sub2/sub2_1.html">
+                            <img class="brand_04" src="images/brand04.png" alt="파워셀 코어 크림">
+                            <p>파워셀 코어 크림</p>
+                            <span>셀코어를 강화시켜주는<br>탄력 영양 크림</span>
+                        </a></li>
+                    </ul>
+                </section>
+                <section class="amplen">
+                    <div class="product_title">
+                        <h4><span>AMPLE:N</span> Dermo Ampoulism</h4>
+                    </div>
+                    <ul>
+                        <li><a href="sub2/sub2_2.html">
+                            <img class="brand_01" src="images/brand05.png" alt="펩타이드샷">
+                            <p>펩타이드샷</p>
+                            <span>고농축 펩타이드실 함유<br>탄력 소환 앰플</span>
+                        </a></li>
+                        <li><a href="sub2/sub2_2.html">
+                            <img class="brand_02" src="images/brand06.png" alt="센텔카밍샷">
+                            <p>센텔카밍샷</p>
+                            <span>끓이지 않은 병풀성분의<br>결이 다른 진정 앰플</span>
+                        </a></li>
+                        <li><a href="sub2/sub2_2.html">
+                            <img class="brand_03" src="images/brand07.png" alt="히알루론샷">
+                            <p>히알루론샷</p>
+                            <span>촉촉히 수분가득 충전되는<br>가볍고 산뜻한 수분앰플</span>
+                        </a></li>
+                        <li><a href="sub2/sub2_2.html">
+                            <img class="brand_04" src="images/brand08.png" alt="브이씨샷">
+                            <p>브이씨샷</p>
+                            <span>피부의 조명을 밝혀주는<br>반짝반짝 광채 앰플</span>
+                        </a></li>
+                    </ul>
+                </section>
+                <section class="preange">
+                    <div class="product_title">
+                        <h4><span>:PREANGE</span> Calming and Protection</h4>
+                    </div>
+                    <ul>
+                        <li><a href="sub2/sub2_3.html">
+                            <img class="brand_01" src="images/brand09.png" alt="안젤리카 토너">
+                            <p>안젤리카 토너</p>
+                            <span>저자극 약산성의<br>진정 보습 앰플 토너</span>
+                        </a></li>
+                        <li><a href="sub2/sub2_3.html">
+                            <img class="brand_02" src="images/brand10.png" alt="비타민 B5 에멀젼">
+                            <p>비타민 B5 에멀젼</p>
+                            <span>촉촉함이 오래가는<br>저자극의 보습 에멀젼</span>
+                        </a></li>
+                        <li><a href="sub2/sub2_3.html">
+                            <img class="brand_03" src="images/brand11.png" alt="시카 디펜스 크림">
+                            <p>시카 디펜스 크림</p>
+                            <span>거칠어진 피부 진정용<br>핑크 진정 보습 크림</span>
+                        </a></li>
+                        <li><a href="sub2/sub2_3.html">
+                            <img class="brand_04" src="images/brand12.png" alt="워터풀 젤크림">
+                            <p>워터풀 젤크림</p>
+                            <span>수부지 피부를 위한<br>수분 가득한 쿨링 젤크림</span>
+                        </a></li>
+                    </ul>
+                </section>
+              </div>
+            </div>
+            
+            <div class="culture_all">
+                <ul>
+                    <li class="culture_space">
+                        <img src="images/culture_icon_01.png" alt="">
+                        <a href="sub1/sub1_4.html">
+                            <dl>
+                                <dt>문화공간 <span>SPACE*C</span></dt>
+                                <dd>문화공간 SPACE*C를 통해<br> 한국의 아름다움을 전 세계에 알립니다.<br>
+                                <span>+자세히보기</span></dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li class="culture_museum">
+                        <img src="images/culture_icon_02.png" alt="">
+                        <a href="sub1/sub1_4.html">
+                           <dl>
+                               <dt>coreana <span>화장박물관</span></dt>
+                               <dd>우리나라 전통 화장문화의 역사를 전하는<br> 국내 유일의 화장박물관입니다.<br>
+                               <span>+자세히보기</span></dd>
+                           </dl>
+                        </a>
+                    </li>
+                    <li class="culture_art">
+                        <img src="images/culture_icon_03.png" alt="">
+                        <a href="sub1/sub1_4.html">
+                            <dl>
+                                <dt>coreana <span>미술관</span></dt>
+                                <dd>연구,전시,교육이 통합적으로 이루어지는<br> 개방형 현대미술관입니다.<br>
+                                <span>+자세히보기</span></dd>
+                            </dl>
+                        </a>
+                    </li>
+                </ul> 
+            </div>
+            
+            
+            <div class="board_all">
+                <h3 class="board_title"><span>COREANA</span> 소식</h3>
+                <div class="news">
+                    <h4>NOTICE <span> 코리아나의 새로운 소식을 지금 바로 확인하세요!</span></h4>
+                    
+                    <!-- 최근게시물 삽입 -->
+                    <? include "./lib/func.php"; ?>
+                    
+                    <div class="greet_box">
+                        <ul>
+                            <? latest_article("greet", 5, 45); ?>
+                        </ul>
+                    </div>
+                    <a href="greet/list.php" title="공지사항 더보기"><i class="fas fa-plus-circle"></i><span class="hidden">공지사항더보기</span></a>
+                </div>
+                <div class="event">
+                    <h4>EVENT <span> 당신을 위해 준비한 코리아나만의 특별한 이벤트</span></h4>
+                    <div class="event_box">
+                        <ul>
+                           <? latest_article("event", 4, 15); ?>
+                        </ul>
+                    </div>
+                    <a href="event/list.php" title="이벤트 더보기"><i class="fas fa-plus-circle"></i><span class="hidden">이벤트더보기</span></a>
+                </div>
+            </div>
+            
+            <div class="guide_all">
+                <h3 class="guide_title"><span>BEAUTY</span> 가이드</h3>
+                <div class="guide_content eventSlideMenu">
+                   <ul>
+                       <li class="img01 eventMenu">
+                           <a href="sub5/sub5_1.html?a=1"><div>
+                               <h4 class="hidden">Structure</h4>
+                               <dl>
+                                   <dt>피부를 안다는 것은?<b><br>" 쌩얼자신감! 피부미인으로 가는 지름길! "</b></dt>
+                                   <dd>Basic knowledges about your skin 1st</dd>
+                                   <dd>당신의 피부구조에 대해서 자세히 알고싶다면?</dd>
+                               </dl>  
+                           </div></a>
+                           <span class="buttonMenu01"></span>
+                       </li>
+                       <li class="img02 eventMenu">
+                           <a href="sub5/sub5_1.html?a=2"><div>
+                               <h4 class="hidden">Action</h4>
+                               <dl>
+                                   <dt>피부야!<b><br>네가 있어 내가 존재한다!</b></dt>
+                                   <dd>Basic knowledges about your skin 2nd</dd>
+                                   <dd>피부가 하는 중요한 역할들에 대해 알아볼까요?</dd>
+                               </dl>
+                           </div></a>
+                           <span class="buttonMenu02"></span>
+                       </li>
+                       <li class="img03 eventMenu">
+                           <a href="sub5/sub5_2.html?a=1"><div>
+                               <h4 class="hidden">Retouch</h4>
+                               <dl>
+                                   <dt>저녁 모임이나 특별한 데이트가 있는 날!<b><br>방금 화장한듯 보송보송할 수는 없을까?</b></dt>
+                                   <dd>Hot and Trendy Make Up TIP 01.</dd>
+                                   <dd>빠르고 간단한 수정 메이크업 팁이 궁금한가요?</dd>
+                               </dl>
+                           </div></a>
+                           <span class="buttonMenu03"></span>
+                       </li>
+                       <li class="img04 eventMenu">
+                           <a href="sub5/sub5_2.html?a=2"><div>
+                               <h4 class="hidden">Complex</h4>
+                               <dl>
+                                   <dt>립스틱 구매할 때, 바를 때 마다<b><br>마음에 안드는 내 입술 모양이 고민이신가요?</b></dt>
+                                   <dd>Hot and Trendy Make Up TIP 02.</dd>
+                                   <dd>립메이크업으로 컴플렉스 타파하기!</dd>
+                               </dl>
+                           </div></a>
+                           <span class="buttonMenu04"></span>
+                       </li>
+                   </ul>
+                </div>
+            </div>
+        </article>
+        
+  <? include "common/main_foot.html" ?>      
+
+
+<!-- 이 위치에 추가되는 스크립트를 연결하세요. -->
+
+<script src="mainjs/visual_move.js"></script>
+<script src="mainjs/jquery.easing.1.3.js"></script>
+<script src="mainjs/index_move_all.js"></script>
+
+<!-- 팝업공지영역 -->
+<div id="showimage" style="z-index:20;position:absolute;width:350px;left:50px;top:280px;">
+  <script>
+    function closeWin(){
+       var chk = document.getElementById('Notice')
+       if ( chk.checked ) {
+             setCookie( "Notice", "done" , 1); //1이란 숫자는 1일간 안보임을 뜻합니다. 날짜는 자신에 맞게 수정하세요
+        }
+    }
+   if ( getCookie( "Notice" ) == "done" ) {
+       hidebox();
+   }
+ </script>
+    <div>
+          <img src="popup/popup_01.png" alt="본 사이트는 상업적 목적이 아닌 개인 포트폴리오 용도로 제작되었습니다. 일시적으로 사용될 예정이며, 홈페이지의 일부 내용과 기타 이미지 등은 출처가 따로 있음을 밝힙니다.">
+    </div>
+     <div style="font-size:12px;text-align:center;color:#666;">
+       <input type="checkbox" name="Notice" id="Notice" value="" title="오늘은 이창을 열지 않음 선택상자"><label for="Notice">오늘은 이창을 열지 않음.</label>
+     <a href="#"  onclick="closeWin();hidebox();return false;"> [close] </a>
+  </div>
+</div>
+                                              
+</body>
+</html>

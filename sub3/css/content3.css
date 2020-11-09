@@ -1,0 +1,32 @@
+/* 이벤트 */
+
+
+#content .content_area h3{font-family: 'Nanum Gothic', sans-serif; font-size: 35px; font-weight: 700; float: left; margin: 0 20px 70px 0}
+#content .content_area p{padding-top: 17px; font-family: 'Nanum Gothic', sans-serif; font-size: 16px}
+#content .content_area ul{clear: both;}
+
+#content .content_area section ul li{float: left; border: 1px solid #ccc; padding: 10px; margin-right: 35px;}
+#content .content_area section ul li:nth-of-type(4){margin-right: 0;}
+#content .content_area section ul li a{display: block; overflow: hidden}
+
+#content .content_area section ul li a img{transition: all .5s}
+#content .content_area section ul li a:hover img{transform: scale(1.1)} 
+
+
+#content .content_area section ul dl{padding: 15px 5px;}
+#content .content_area section ul dl dt{margin-top: 20px; margin-bottom: 25px; font-family: 'Nanum Gothic', sans-serif; font-size: 18px; font-weight: 700;}
+#content .content_area section ul dl dd{margin-bottom: 10px}
+#content .content_area section ul dl dd span{color: #004b84; font-weight: bold;}
+
+/* 이것은 현재 */
+#content .content_area .ing_event{margin-bottom: 70px;}
+#content .ing_event ul{overflow: hidden;}
+
+
+
+/* 이것은 과거 */
+
+#content .content_area .past_event{margin-bottom: 120px;}
+#content .content_area .past_event ul{overflow: hidden;}
+
+

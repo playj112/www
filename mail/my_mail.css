@@ -1,0 +1,29 @@
+/* 이메일보내기 */
+
+#wrap{width: 900px; margin: 0 auto; padding-bottom: 120px}
+
+.email_top{overflow: hidden; position: relative; padding-top: 80px}
+.email_top a:nth-of-type(1){display: block; float: left; margin-right: 370px; padding-top: 30px; font-family: 'Nanum Gothic', sans-serif; font-size: 20px; color: #999}
+.email_top a img{float: left; margin-right: 10px;}
+.email_top p{float:left; font-family: 'Nanum Gothic', sans-serif; font-size: 25px; font-weight: 700; padding-bottom: 80px; padding-top: 20px}
+.email_top p::after{width: 900px; height: 3px; content: ''; background: #004b84; position: absolute; top: 150px; left: 0}
+
+
+.control-group{position: relative}
+.control-group label{display: block; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; font-size: 20px; margin: 0 30px; padding-bottom: 15px}
+.control-group label::after{width: 8px; height: 8px; content: ''; border-radius: 4px; background: #004b84; position: absolute; top: 8px; left: 10px}
+
+.control-group input{font-family: 'Nanum Gothic', sans-serif; border: none; background: #eaebef; padding: 5px; height: 40px; width: 900px; font-size: 16px}
+
+textarea{font-family: 'Nanum Gothic', sans-serif; border: none; background: #eaebef; padding: 5px; height: 300px; width: 900px; font-size: 16px; resize: none}
+
+.help-block{width: 100%; height: 20px; font-family: 'Nanum Gothic', sans-serif; padding: 20px; color: #f00}
+
+
+#success{height: 50px; margin-bottom: 30px}
+
+.row button{cursor: pointer; display: block; background: #004b84; color: #fff; text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 18px; width: 130px; padding: 10px; border: none; margin-left: 385px}
+.row button:hover{background: #fff; color: #004b84; border: 1px solid #004b84; width: 128px}
+
+#success button{margin-right: 10px;}
+

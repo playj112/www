@@ -1,0 +1,26 @@
+/* 채용안내 본문 */
+
+#content .content_area section{margin-left: 100px;}
+#content .content_area section h3{font-family: 'Nanum Gothic', sans-serif; font-size: 30px; font-weight: 700; color: #004b84; margin-bottom: 50px;}
+
+#content .content_area .recruit_field p{margin-bottom: 15px;}
+#content .content_area .recruit_field span{font-weight: bold; color: #999}
+
+
+#content .content_area .recruit_field h4{font-family: 'Nanum Gothic', sans-serif; font-size: 17px; font-weight: 700; color: #004b84; margin-top: 50px; margin-bottom: 15px;}
+
+#content .content_area table{border-top: 2px solid #004b84; border-bottom: 2px solid #004b84;}
+#content .content_area table th{background: #eaebef; border-bottom: 1px solid #ccc; padding: 10px; text-align: center;}
+#content .content_area table td{padding: 10px; text-align: center; border-bottom: 1px solid #ccc}
+
+
+#content .content_area .recruit_field table{width: 93%; margin-bottom: 50px;}
+#content .content_area .recruit_field{margin-bottom: 120px;}
+
+#content .content_area .duty_notice p{margin-bottom: 50px;}
+#content .content_area .duty_notice table{width: 93%; margin-bottom: 150px;}
+#content .content_area .duty_notice table tr th:nth-of-type(1){border-right: 1px solid #ccc}
+#content .content_area .duty_notice table tr td:nth-of-type(1){border-right: 1px solid #ccc}
+
+
+

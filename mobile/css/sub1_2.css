@@ -1,0 +1,57 @@
+/* 모바일_경영이념 */
+
+.main{position: relative; margin-bottom: 45px}
+.main img{width: 100%}
+.main p{color: #fff; text-align: center; font-family: 'Nanum Gothic', sans-serif;}
+.main p:nth-of-type(1){font-weight: 700; font-size: 20px; position: absolute; left: 50%; margin-left: -37.6px; top: 38%;}
+.main p:nth-of-type(2){font-weight: 400; font-size: 13px; position: absolute; left: 50%; margin-left: -67.5px; top: 58%}
+
+/* 요까지 메인비주얼 */
+
+#content .title_area{position: relative; margin-bottom: 60px}
+#content .title_area h2{text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 28px; font-weight: 700; margin-bottom: 35px}
+#content .title_area h2::after{content: ''; width: 35px; height: 3px; background: #004b84; position: absolute; left: 50%; margin-left: -17.5px; top: 48px; }
+#content .title_area p{text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 12px; font-weight: 400; background: #eaebef}
+
+/* 요까지 타이틀 */
+
+
+.content_area .slideMenu{margin-bottom: 60px; overflow: hidden;}
+.content_area .slideMenu li{width: 29.3%; margin: 0 2%; float: left; text-align: center;}
+.content_area .slideMenu li a{display: block; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; font-size: 15px; border-radius: 5px; padding: 10px 0; border: 1px solid #004b84;}
+
+
+#trust{padding: 0 10px; margin-bottom: 100px}
+#trust>p{font-size: 14px; margin-bottom: 50px; line-height: 2em; text-align: justify}
+#trust>p span{color: #004b84; font-weight: bold}
+
+#trust ul li{width: 90%; margin: 0 5%; background: #dfedf7; border-radius: 5px; font-family: 'Nanum Gothic', sans-serif; margin-bottom: 20px;}
+#trust ul li img{float: left; width: 50px; padding: 10px 12px}
+#trust ul li span{display: block; font-size: 13px; margin-bottom: 10px; font-weight: 700; padding-top: 15px;}
+#trust ul li p{font-size: 14px; padding-bottom: 15px;}
+
+
+#self{margin-bottom: 100px}
+#self>p{padding: 0 10px; font-size: 14px; margin-bottom: 30px; line-height: 2em; text-align: justify}
+#self>p span{color: #004b84; font-weight: bold}
+
+#self ul li:first-of-type{background: #eaebef}
+#self ul li:last-of-type{background: #eaebef}
+#self ul li img{width: 90%; margin-left: 5%; padding: 30px 0 15px 0;}
+#self ul li span{display: block; font-family: 'Nanum Myeongjo', serif; font-size: 20px; font-weight: 700; text-align: center; border-bottom: 1px dashed #ccc}
+#self ul li p{font-family: 'Nanum Gothic', sans-serif; font-size: 16px; font-weight: 700; text-align: center; color: #004b84; padding-bottom: 15px; margin-top: 10px}
+
+
+#consumer{padding: 0 10px; margin-bottom: 70px}
+#consumer>p{font-size: 14px; margin-bottom: 30px; line-height: 2em; text-align: justify}
+#consumer>p span{color: #004b84; font-weight: bold}
+
+#consumer ul li{margin-bottom: 20px}
+#consumer ul li span{font-family: 'Nanum Gothic', sans-serif;}
+#consumer ul li span:nth-of-type(1){color: #047b8a; font-size: 20px; font-weight: 700}
+#consumer ul li span:nth-of-type(2){font-size: 16px; font-weight: 700; background: rgba(4,123,138, .2)}
+#consumer ul li p{margin-top: 10px; line-height: 1.5em; text-align: justify}
+
+
+
+

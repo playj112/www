@@ -1,0 +1,21 @@
+/* 모바일_공지사항 */
+
+.main{position: relative; margin-bottom: 45px}
+.main img{width: 100%}
+.main p{color: #fff; text-align: center; font-family: 'Nanum Gothic', sans-serif;}
+.main p:nth-of-type(1){font-weight: 700; font-size: 20px; position: absolute; left: 50%; margin-left: -37.6px; top: 38%;}
+.main p:nth-of-type(2){font-weight: 400; font-size: 13px; position: absolute; left: 50%; margin-left: -73.8px; top: 58%}
+
+/* 요까지 메인비주얼 */
+
+#content .title_area{position: relative; margin-bottom: 45px}
+#content .title_area h2{text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 28px; font-weight: 700; margin-bottom: 35px}
+#content .title_area h2::after{content: ''; width: 35px; height: 3px; background: #004b84; position: absolute; left: 50%; margin-left: -17.5px; top: 48px; }
+#content .title_area p{text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 12px; font-weight: 400; background: #eaebef}
+
+/* 요까지 타이틀 */
+
+
+
+
+

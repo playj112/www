@@ -1,0 +1,102 @@
+/* 비주얼영역 */
+
+.main img{width: 100%}
+
+/* 경영이념 */
+
+.intro p{font-size: 17.5px; font-family: 'Nanum Gothic', sans-serif; text-align: center; margin: 30px 0 15px 0;}
+.intro p span{font-weight: 700;}
+
+.intro ul{background: #eaebef; padding: 15px}
+.intro ul li{overflow: hidden; margin-bottom: 20px;}
+.intro ul li:last-of-type{margin-bottom: 0;}
+
+.intro ul li img{float: left; width: 100px; height: 100px; margin-right: 3%}
+.intro ul li dl{background: #fff; height: 85px; padding: 15px 0 0 0}
+.intro ul li dl dt{font-family: 'Nanum Gothic', sans-serif; font-size: 14px; font-weight: 700; margin-bottom: 10px}
+.intro ul li dl dd{font-family: 'Nanum Gothic', sans-serif; font-size: 12px; line-height: 1.5em}
+
+
+
+
+/* 브랜드소개 */
+
+.product{margin-bottom: 50px; position: relative}
+.product h3{font-size: 17.5px; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; margin: 35px 0 15px 10px;}
+
+.product .swiper-slide{background: #dfedf7; overflow: hidden; padding-top: 30px; padding-bottom: 40px;}
+.product .swiper-slide .pbox_01{width: 46%; padding: 0 2%;  float: left;}
+.product .swiper-slide .pbox_02{width: 46%; padding: 0 2%; float: right;}
+.product .swiper-slide img{width: 100%; margin-bottom: 15px}
+
+.product .swiper-slide dl{text-align: center;}
+.product .swiper-slide dl dt{font-family: 'Nanum Gothic', sans-serif; font-size: 11px; margin-bottom: 15px}
+.product .swiper-slide dl dd:nth-of-type(1){font-family: 'Nanum Gothic', sans-serif; font-weight: 700; font-size: 14px; margin-bottom: 15px}
+.product .swiper-slide dl dd:nth-of-type(2){font-size: 13px; line-height: 1.5em}
+
+
+
+/* 스와이퍼 */
+.swiper-container {}
+.swiper-slide {
+        
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;}
+
+
+
+/* 문화경영 */
+
+.culture{background:url(../images/culture_back.jpg) center top; background-size: cover; height: 480px }
+.culture>p:nth-of-type(1){color: #fff; text-align: center; text-decoration: underline; font-size: 12px; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; padding-top: 40px; margin-bottom: 15px;}
+.culture h3{color: #fff; text-align: center; font-size: 17.5px; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; margin-bottom: 25px}
+.culture>p:nth-of-type(2){color: #fff; font-size: 13px; text-align: center; width: 80%; margin-left: 10%; line-height: 1.5em;}
+
+.culture ul{position: relative}
+.culture ul li{width: 90px; height: 90px; border-radius: 45px; background: #fff}
+.culture ul li:nth-child(1){position: absolute; left: 50%; top: 30px; margin-left: -45px;}
+.culture ul li:nth-child(2){position: absolute; left: 20%; top: 160px; margin-left: -45px;}
+.culture ul li:nth-child(3){position: absolute; left: 80%; top: 160px; margin-left: -45px;}
+.culture ul li a{display: block; }
+.culture ul li img{width: 60px; height: 60px; position: relative; left: 15px; top: 15px;}
+.culture ul li p{color: #fff; text-align: center; padding-top: 40px; font-size: 15px; font-family: 'Nanum Gothic', sans-serif; font-weight: 400;}
+
+
+/* 뷰티가이드 */
+
+.guide{border-bottom: 1px solid #ccc; margin-bottom: 50px; margin-top: 150px; opacity: 0; transition: all 1s}
+.guide.on{margin-top: 0; opacity: 1}
+
+
+.guide h3{font-size: 17.5px; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; margin: 35px 0 15px 10px;}
+
+.guide ul{overflow: hidden;}
+.guide ul li{float: left; position: relative; width: 50%}
+.guide ul li a{display: block}
+.guide ul li img{width: 100%}
+
+.guide ul li dl{padding: 15px 0; text-align: center;}
+.guide ul li:nth-of-type(1) dl{border-right: 1px solid #ccc}
+.guide ul li:nth-of-type(3) dl{border-right: 1px solid #ccc}
+
+.guide ul li dl dt{margin-bottom: 10px; font-size: 16px; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; color: #004b84}
+.guide ul li dl dd{line-height: 1.5em; font-size: 13px; margin: 0 3%;}
+
+
+
+
+
+
+
+

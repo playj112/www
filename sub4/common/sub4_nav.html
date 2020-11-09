@@ -1,0 +1,32 @@
+<script>
+window.onload=function(){
+
+        var num = '<?=$_GET['num']?>';
+        var nav1= document.getElementById('nav1'); 
+        var nav2= document.getElementById('nav2');
+
+          if(num==1){
+              nav1.className='current';
+
+          }else if(num==2){
+              nav2.className='current';
+
+          }
+}
+</script>
+   
+   
+  <!-- 메인비주얼영역 -->
+    <div class="visual">  
+        <img src="common/images/sub4_visual.jpg" alt="">
+        <h3>고객센터</h3>
+        <p>Customer Service Center</p>   
+    </div>
+    
+    <!-- 서브네비영역 -->  
+    <div class="sub_nav">
+        <ul>
+            <li><a id="nav1" href="sub4_1.html">FAQ</a></li>
+            <li><a id="nav2" href="../customer/list.php">고객의소리</a></li>
+        </ul>
+    </div>

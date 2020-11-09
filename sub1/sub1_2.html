@@ -1,0 +1,137 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Coreana-경영이념</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/febc580729.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub1common.css">
+    <link rel="stylesheet" href="css/content2.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    
+     <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <? include "../common/sub_head.html" ?>
+    
+    <? $_GET['num']=2;
+      include "common/sub1_nav.html"; 
+    ?>
+    
+    <!-- 본문콘텐츠영역 -->
+    <article id="content">
+        <div class="title_area">
+            <div class="line_map">
+                <span>Home </span>&gt;<span > 기업소개 </span>&gt;<strong> 경영이념</strong>
+            </div>
+            <h2>경영이념</h2>
+            <p>MANAGEMENT PHILOSOPHY</p>
+        </div>
+        <div class="content_area">
+            <section id="trust">
+                <h3 class="hidden">신뢰를 쌓아가는 회사</h3>
+                <p>코리아나가 지향하는 <span>" 정도경영 8수칙 "</span> 을 통해<br> 고객과의 신뢰를 한발한발 쌓아나가는 코리아나(Coreana) 가 되겠습니다.</p>
+                <ul>
+                    <li>
+                        <img src="images/content2/trust_01.png" alt="">
+                        <span>New Coporate Culture</span>
+                        <p>새로운 기업문화를 창조하는 회사</p>
+                    </li>
+                    <li>
+                        <img src="images/content2/trust_02.png" alt="">
+                        <span>Nice Product</span>
+                        <p>좋은 상품을 만드는 회사</p>
+                    </li>
+                    <li>
+                        <img src="images/content2/trust_03.png" alt="">
+                        <span>Good Employee</span>
+                        <p>좋은 일꾼을 기르는 회사</p>
+                    </li>
+                    <li>
+                        <img src="images/content2/trust_04.png" alt="">
+                        <span>Good Workplace</span>
+                        <p>좋은 일터를 가꾸는 회사</p>
+                    </li>
+                    <li>
+                        <img src="images/content2/trust_05.png" alt="">
+                        <span>Efficient Processing</span>
+                        <p>일을 바르게 처리하는 회사</p>
+                    </li>
+                    <li>
+                        <img src="images/content2/trust_06.png" alt="">
+                        <span>Principles and Rules</span>
+                        <p>법과 질서를 지키는 회사</p>
+                    </li>
+                    <li>
+                        <img src="images/content2/trust_07.png" alt="">
+                        <span>Reasonable Margin</span>
+                        <p>적정이윤을 창출하는 회사</p>
+                    </li>
+                    <li>
+                        <img src="images/content2/trust_08.png" alt="">
+                        <span>Management Skills</span>
+                        <p>경영기법이 앞서가는 회사</p>
+                    </li>
+                </ul>                
+            </section>
+            <section id="self">
+                <h3 class="hidden">스스로 일하는 회사</h3>
+                <p>코리아나(Coreana)는 전직원의 목표로서 <span>" 3대 비젼 "</span>을 세우고,<br>이를 위하여 더욱 발전하는 기업이 되겠습니다.</p>
+                <ul>
+                    <li>
+                        <span>1st Vision</span>
+                        <p>기술개발로 세계를 지향</p>
+                    </li>
+                    <li>
+                        <span>2nd Vision</span>
+                        <p>뉴마케팅으로 장업계 TOP을 지향</p>
+                    </li>
+                    <li>
+                        <span>3rd Vision</span>
+                        <p>내실경영으로 모범기업을 지향</p>
+                    </li>
+                </ul>
+            </section>
+            <section id="consumer">
+                <h3 class="hidden">소비자를 위하는 회사</h3>
+                <p>언제나 소비자를 중심으로 생각하는 코리아나(Coreana)는<br> <span>" 4가지의 영업방침 "</span> 을 통해 고객의 입장에서 한 번 더 생각하는 기업이 되겠습니다.</p>
+                <ul>
+                    <li>
+                        <p>가격준수</p>
+                        <span>공시된 판매 가격을 준수하여<br>가격차별이 없도록<br>항상 노력하겠습니다.</span>
+                    </li>
+                    <li>
+                        <p>현금거래</p>
+                        <span>투명하고 공정한 판매를<br>약속하겠습니다.</span>
+                    </li>
+                    <li>
+                        <p>유통별 상품 차별화</p>
+                        <span>방문판매, 백화점, 온라인몰 등<br>판매 유통별 상품군의<br>다양성을 갖추겠습니다.</span>
+                    </li>
+                    <li>
+                        <p>철저한 교육</p>
+                        <span>직원 교육 프로그램을 통해<br>전문성있는 판매를<br>추구하겠습니다.</span>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        
+    </article>
+    
+   <? include "../common/sub_foot.html" ?> 
+    
+    
+</body>
+</html>

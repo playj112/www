@@ -1,0 +1,84 @@
+/* 모바일_피부기초지식 */
+
+.main{position: relative; margin-bottom: 45px}
+.main img{width: 100%}
+.main p{color: #fff; text-align: center; font-family: 'Nanum Gothic', sans-serif;}
+.main p:nth-of-type(1){font-weight: 700; font-size: 20px; position: absolute; left: 50%; margin-left: -47px; top: 38%;}
+.main p:nth-of-type(2){font-weight: 400; font-size: 13px; position: absolute; left: 50%; margin-left: -40.5px; top: 58%}
+
+/* 요까지 메인비주얼 */
+
+#content .title_area{position: relative; margin-bottom: 45px}
+#content .title_area h2{text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 28px; font-weight: 700; margin-bottom: 35px}
+#content .title_area h2::after{content: ''; width: 35px; height: 3px; background: #004b84; position: absolute; left: 50%; margin-left: -17.5px; top: 48px; }
+#content .title_area p{text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 12px; font-weight: 400; background: #eaebef}
+
+/* 요까지 타이틀 */
+
+
+
+.tabs{position: relative;}
+.tabs .tab{display: block; width: 30%; position: absolute; font-family: 'Nanum Gothic', sans-serif; font-size: 18px; font-weight: 700; text-align: center; padding: 10px 0; border-radius: 5px; border: 1px solid #004b84}
+
+.tabs .tab1{left: 0; top: 0; margin: 0 3% 0 17%}
+.tabs .tab2{right: 0; top: 0; margin: 0 17% 0 3%}
+
+.tabs .on{background: rgba(0,75,132,.2)}
+.tabs .contlist{padding-top: 100px; display: none;}
+
+
+/* 본문 시작 */
+
+#content .skin_structure .structure_top{margin-bottom: 30px}
+#content .skin_structure .structure_top>p:nth-of-type(1){font-family: 'Nanum Myeongjo', serif; font-size: 25px; font-weight: 700; text-align: center;}
+#content .skin_structure .structure_top p:nth-of-type(2){font-family: 'Nanum Gothic', sans-serif; font-size: 22px; text-align: center; color: #ccc; margin-bottom: 80px;}
+#content .skin_structure .structure_top ul li h4{font-family: 'Nanum Gothic', sans-serif; font-size: 16px; font-weight: 700; text-align: center; margin-bottom: 15px; color: #0089d1}
+#content .skin_structure .structure_top ul li p{padding: 0 10px; line-height: 2em; text-align: justify; margin-bottom: 80px;}
+
+
+
+/* 1번째 박스 */
+#content .structure_con>ul>li{border: 1px solid #ccc; width: 80%; margin: 0 10% 80px 10%;}
+#content .structure_con>ul>li:first-child h5{height: 35px; padding-top: 14px; background: #bdd0e5; text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 16px; font-weight: 700;}
+#content .structure_con>ul>li img{width: 50px; margin: 20px 0; position: relative; left: 50%; top: 0; margin-left: -25px}
+#content .structure_con>ul>li:first-child p:first-of-type{text-align: center; padding-bottom: 15px; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; font-size: 16px;}
+#content .structure_con>ul>li:first-child>p:last-of-type{padding: 0 10px; line-height: 2em; text-align: justify;}
+#content .structure_con>ul>li:first-child>ul{padding: 15px 30px; font-weight: bold}
+#content .structure_con>ul>li:first-child>ul li{margin-bottom: 10px; list-style: square;}
+
+
+/* 2번째 박스 */
+
+#content .structure_con>ul>li:nth-child(2) h5{height: 35px; padding-top: 14px; background: #0089d1; text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 16px; font-weight: 700; color: #fff;}
+
+#content .structure_con>ul>li:nth-child(2) p:first-of-type{text-align: center; padding-bottom: 15px; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; font-size: 16px;}
+#content .structure_con>ul>li:nth-child(2)>p:last-of-type{padding: 0 10px; line-height: 2em; text-align: justify;}
+#content .structure_con>ul>li:nth-child(2)>ul{padding: 15px 30px; font-weight: bold;}
+#content .structure_con>ul>li:nth-child(2)>ul li{margin-bottom: 10px; list-style: square;}
+
+
+/* 3번째 박스 */
+
+#content .structure_con>ul>li:nth-child(3) h5{height: 35px; padding-top: 14px; background: #004b84; text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 16px; font-weight: 700; color: #fff;}
+#content .structure_con>ul>li:nth-child(3) p:first-of-type{text-align: center; padding-bottom: 15px; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; font-size: 16px; line-height: 2em;}
+#content .structure_con>ul>li:nth-child(3)>p:last-of-type{padding: 0 10px; line-height: 2em; text-align: justify; margin-bottom: 20px;}
+
+
+/* 탭 변환지점 */
+#content .skin_structure{margin-bottom: 100px;}
+
+
+#content .skin_action{margin-bottom: 100px;}
+#content .skin_action>p:nth-of-type(1){font-family: 'Nanum Myeongjo', serif; font-size: 25px; font-weight: 700; text-align: center;}
+#content .skin_action p:nth-of-type(2){font-family: 'Nanum Gothic', sans-serif; font-size: 22px; text-align: center; color: #ccc; margin-bottom: 80px;}
+
+/* 리스트 시작 */
+#content .skin_action ul{}
+#content .skin_action ul li{margin-bottom: 60px; padding: 0 10px}
+#content .skin_action li h4{font-family: 'Nanum Gothic', sans-serif; font-size: 18px; font-weight: 700; margin-bottom: 10px}
+#content .skin_action li dl{}
+#content .skin_action dl dt{font-family: 'Nanum Gothic', sans-serif; font-weight: 700;  color: #0089d1; margin-bottom: 10px; font-size: 16px;}
+#content .skin_action dl dd{line-height: 2em; text-align: justify;}
+
+
+

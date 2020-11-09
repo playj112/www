@@ -1,0 +1,101 @@
+    <div id="skipNav">
+        <a href="#content">본문 바로가기</a>
+        <a href="#gnb">글로벌 네비게이션 바로가기</a>
+    </div>
+    
+    <div id="wrap">
+    
+    <!-- 헤더공통영역 -->
+    
+        <header id="headerArea" class="fat">
+          <div class="header_inner">
+            <div class="top_box">
+                <h1 class="logo">
+                    <a href="../index.html">코리아나로고</a>
+                </h1>
+                <div class="top_menu">
+                    <ul>
+                    <?
+                        if(!$userid) // 세션변수 userid가 생성되어 있지 않으면
+                        {
+                    ?>
+                       
+                        <li>
+                            <a href="../login/login_form.php"><i class="fas fa-sign-in-alt"></i><span>로그인</span></a>
+                        </li>
+                        <li>
+                            <a href="../member/join.html"><i class="fas fa-user-circle"></i><span>회원가입</span></a>
+                        </li>
+                        
+                    <?
+                        }
+                        else   // 세션변수가 있으면 (로그인이 성공하면)
+                        {
+                    ?>
+                        <li>
+                            <a href="../login/logout.php"><i class="fas fa-sign-out-alt"></i><span>로그아웃</span></a>
+                        </li>
+                        <li>
+                            <a href="../login/member_form_modify.php"><i class="fas fa-user-edit"></i><span>정보수정</span></a>
+                        </li>
+                    <?
+                        }
+                    ?>   
+                    </ul>
+                </div>
+            </div>
+            <nav id="gnb">
+                <h2 class="hidden">글로벌네비게이션영역</h2>
+                <ul class="dropdownmenu">
+              	<li class="m1 menu">
+                	<h3><a class="depth1" href="../sub1/sub1_1.html">기업소개</a></h3>
+                    <ul>
+                        <li><a href="../sub1/sub1_1.html">CEO인사말</a></li>
+                        <li><a href="../sub1/sub1_2.html">경영이념</a></li>
+                        <li><a href="../sub1/sub1_3.html">연혁</a></li>
+                        <li><a href="../sub1/sub1_4.html">문화경영</a></li>
+                        <li><a href="../sub1/sub1_5.html">찾아오시는길</a></li>
+                    </ul>
+                </li>
+                <li class="m2 menu">
+                	<h3><a class="depth1" href="../sub2/sub2_1.html">브랜드소개</a></h3>
+                	<ul>
+                    	<li><a href="../sub2/sub2_1.html">LAVIDA</a></li>
+                        <li><a href="../sub2/sub2_2.html">AMPLE:N</a></li>
+                        <li><a href="../sub2/sub2_3.html">:PREANGE</a></li>
+                    </ul>
+                </li>
+                <li class="m3 menu">
+                	<h3><a class="depth1" href="../sub3/sub3_1.html">홍보센터</a></h3>
+                	<ul>
+                    	<li><a href="../greet/list.php">공지사항</a></li>
+                        <li><a href="../sub3/sub3_2.html">CF갤러리</a></li>
+                        <li><a href="../event/list.php">EVENT</a></li>
+                    </ul>
+                </li>
+                <li class="m4 menu">
+                	<h3><a class="depth1" href="../sub4/sub4_1.html">고객센터</a></h3>
+                	<ul>
+                    	<li><a href="../sub4/sub4_1.html">FAQ</a></li>
+                        <li><a href="../customer/list.php">고객의소리</a></li>
+                    </ul>
+                </li>
+                <li class="m5 menu">
+                	<h3><a class="depth1" href="../sub5/sub5_1.html">뷰티가이드</a></h3>
+                	<ul>
+                    	<li><a href="../sub5/sub5_1.html">피부기초지식</a></li>
+                        <li><a href="../sub5/sub5_2.html">메이크업팁</a></li>
+                    </ul>
+                </li>
+                <li class="m6 menu">
+                	<h3><a class="depth1" href="../sub6/sub6_1.html">인재채용</a></h3>
+                	<ul>
+                    	<li><a href="../sub6/sub6_1.html">인재상</a></li>
+                        <li><a href="../sub6/sub6_2.html">채용안내</a></li>
+                        <li><a href="../download/list.php">채용공고</a></li>
+                    </ul>
+               	</li>
+              </ul>
+            </nav>
+          </div>
+        </header>

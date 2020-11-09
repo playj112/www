@@ -1,0 +1,48 @@
+/* 이벤트 리스트 */
+
+.event_top{overflow: hidden}
+
+#list_search #list_total{font-family: 'Nanum Gothic', sans-serif; font-size: 18px; font-weight: 700; margin-bottom: 40px}
+#list_search #list_search1{float: left}
+#list_search #list_search2{float: left}
+#list_search #list_search3{float: left}
+
+#list_search #list_search1 select{font-family: 'Nanum Gothic', sans-serif; font-size: 16px; padding: 10px; border: solid 1px #ccc; width: 80px; height: 43px; margin-right: 10px}
+#list_search #list_search2 input{padding: 10px; border: 1px solid #ccc; width: 378px; font-family: 'Nanum Gothic', sans-serif; font-size: 18px; height: 21px; margin-right: 10px}
+#list_search #list_search3 input{font-family: 'Nanum Gothic', sans-serif; font-size: 18px; padding: 10px; border: none; background: #004b84; color: #fff; width: 100px; cursor: pointer; height: 43px;}
+
+
+.e_scale{float: right; font-family: 'Nanum Gothic', sans-serif; font-size: 16px; padding: 10px; border: solid 1px #ccc; width: 80px; height: 43px; margin-bottom: 80px}
+
+#list_content{overflow: hidden}
+#list_item{border: 1px solid #ccc; float: left; padding: 9px; margin: 0 15px 30px 15px}
+
+#list_item #list_item2{font-size: 16px}
+#list_item #list_item2 a .e_list_image{display: block; width: 250px; height: 300px; margin-bottom: 20px}
+#list_item #list_item2 a:hover .e_list_image{opacity: .7}
+#list_item #list_item2 a p{font-family: 'Nanum Gothic', sans-serif; font-weight: 700; margin-bottom: 10px}
+#list_item #list_item2 a:hover p{text-decoration: underline}
+#list_item #list_item4 i{color: #333; margin-right: 5px}
+#list_item #list_item4 span{color: #004b84; font-family: 'Nanum Gothic', sans-serif; font-weight: 700}
+#list_item #list_item4{margin-bottom: 10px}
+
+
+
+
+
+
+
+#page_button{clear: both; margin-top: 30px}
+#page_button #page_num{text-align: center; margin-bottom: 10px}
+
+
+#page_button #button{overflow: hidden; margin-bottom: 120px}
+#page_button #button a{display: block; float: right; background: #004b84; color: #fff; text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 15px; width: 50px; height: 18px; padding: 10px; margin-left: 10px}
+#page_button #button a:hover{background: #fff; color: #004b84; border: 1px solid #004b84; width: 48px; height: 16px;}
+
+
+
+
+
+
+

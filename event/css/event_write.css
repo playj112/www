@@ -1,0 +1,45 @@
+/* 이벤트 글쓰기수정 */
+
+
+.content_area form{}
+.content_area #write_form{width: 1000px; margin: 0 auto; font-family: 'Nanum Gothic', sans-serif; font-size: 16px;}
+
+
+.col1{margin: 5px 0; width: 200px; font-weight: 700; background: #efeff1; float: left; text-align: center; padding: 10px; margin-right: 10px}
+.col2{margin: 5px 0; float: left}
+.col3{float: right; padding-top: 15px}
+
+
+
+#write_row1 .col2{padding-top: 10px; color: #666; font-weight: 700; margin-left: 10px}
+
+#write_row1{overflow: hidden}
+#write_row2{overflow: hidden}
+#write_row3{overflow: hidden; margin-bottom: 30px}
+#write_row4{overflow: hidden}
+#write_row5{overflow: hidden}
+#write_row6{overflow: hidden}
+
+#write_row2 input{border: solid #ccc 1px; padding: 10px; width: 748px}
+#write_row3 textarea{border: solid #ccc 1px; padding: 10px; width: 748px; height: 400px; margin-top: 5px}
+#write_row3 .col1{height: 232px; padding-top: 180px}
+
+#write_row4 input{font-family: 'Nanum Gothic', sans-serif; padding: 5px}
+#write_row5 input{font-family: 'Nanum Gothic', sans-serif; padding: 5px}
+#write_row6 input{font-family: 'Nanum Gothic', sans-serif; padding: 5px}
+
+#write_button{overflow: hidden; width: 1000px; margin: 50px auto 120px}
+#write_button a{display: block; float: right; background: #004b84; color: #fff; text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 15px; width: 50px; height: 18px; padding: 10px; margin-left: 10px}
+#write_button a:hover{background: #fff; color: #004b84; border: 1px solid #004b84; width: 48px; height: 16px;}
+
+
+#write_button input{border: none; display: block; float: right; background: #004b84; color: #fff; text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 15px; width: 70px; height: 38px; padding: 10px; margin-left: 10px; cursor: pointer;}
+#write_button input:hover{background: #fff; color: #004b84; border: 1px solid #004b84}
+
+
+
+
+
+
+
+

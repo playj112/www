@@ -1,0 +1,106 @@
+/* Reset CSS  */
+* { margin:0; padding:0; border:0; outline:0; vertical-align:top;
+-webkit-text-size-adjust:none;  }
+body {font-family:'돋움', Dotum;/*폰트랑 사이즈 바꿔주기*/ font-size:14px; color:#333;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display:block; }
+ul, ol, dl { list-style:none; }
+img, video {border:0; vertical-align:top; }
+a, a:link {color:#333;text-decoration:none; }
+a:visited { color:#333; }
+a:hover, a:active {color:#333;text-decoration:none; }
+table { border-collapse:collapse; border-spacing:0; }
+input, select { vertical-align:middle; }
+label { cursor:pointer; }
+.blind,legend,hr,caption { display:block; overflow:hidden; position:absolute; top:0; left:-1000em; }
+i,em,address { font-style:normal; font-weight:normal; }
+p,li,dd{ line-height:1.5em}
+
+.hidden,#skipNav{display: block; position: absolute; left: -1000%; top: 0; width: 1px; height: 1px; overflow: hidden; color: #fff}
+
+
+/* 헤더공통영역 */
+
+#headerArea{position:fixed; z-index: 30; height: 130px; background: #000; left:0; top: 0; width: 100%; opacity: .8;}	
+#headerArea	.headerInner{width: 90%; margin: 0 5%;}
+
+#headerArea h1 a{display: block; width: 500px; height: 60px; background: url(../images/h_logo.jpg) center no-repeat; text-indent: -999px; overflow: hidden; margin: 15px auto;}
+
+#headerArea .menuOpen{position:absolute; right:25px; top:25px; color: #fff; font-size: 25px; display:none}
+
+#headerArea #gnb{overflow: hidden}
+#headerArea #gnb ul{overflow: hidden; margin: 0 auto;}
+#headerArea #gnb ul li{float: left; width: 25%}
+#headerArea #gnb ul li a{display: block; color: #fff; font-size: 25px; font-weight: 700; font-family: 'Nanum Myeongjo', serif; text-align: center; padding-bottom: 10px}
+
+
+
+/* 상단 탑메뉴 공통 */
+.topMove{display:block; width: 50px; height: 50px; background: rgba(0,0,0,.7); position: fixed; right: 5%; bottom: 180px;}
+.topMove span{font-size: 15px; font-family: 'Nanum Myeongjo', serif; color: #fff; display: block; text-align: center; margin-top: 7px;}
+
+
+
+/* 푸터공통영역 */
+
+#footerArea{overflow: hidden; background: #000; height: 180px; padding: 0 2%}
+#footerArea .footer_left{float: left; width: 70%}
+#footerArea .footer_left img{padding-top: 25px; margin-bottom: 15px}
+#footerArea .footer_left address{font-family: 'Nanum Myeongjo', serif; font-size: 14px; color: #fff; line-height: 2em;}
+
+#footerArea .sns{float: right; width: 30%; overflow: hidden}
+#footerArea .sns ul{float: right; overflow: hidden; margin-top: 25px;}
+#footerArea .sns ul li{float: left; margin-right: 20px}
+#footerArea .sns ul li a{display: block; color: #fff; font-size: 40px;}
+
+
+
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+	
+}
+
+
+/* 태블릿 */
+@media screen and (max-width:1024px) {
+    #headerArea{opacity: 1; height: 80px}
+    #headerArea .menuOpen{display: block;}
+    
+    #headerArea h1 a{width: 250px; height: 30px; background: url(../images/f_logo.jpg) center no-repeat; margin-top: 25px}
+    
+    #headerArea #gnb{width: 100%; background: rgba(0,0,0,.7); position:absolute; top: 80px; left:0; display: none}
+    #headerArea #gnb ul{padding-bottom: 15px}
+    #headerArea #gnb ul li{float:none; width: auto; margin:0; text-align:center}
+    #headerArea #gnb ul li a{padding: 20px 0}
+}
+
+/* 소형 태블릿 */
+@media screen and (max-width:768px) {
+    
+#footerArea .footer_left address{font-size: 13px}
+	
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+    
+#footerArea .footer_left{float: none; width: auto}
+#footerArea .footer_left img{width: 150px}
+#footerArea .footer_left address{font-family: 'Nanum Myeongjo', serif; font-size: 12px; color: #fff; line-height: 1.5em;}
+
+#footerArea .sns{float: none; width: auto}
+#footerArea .sns ul{float: none; margin-top: 15px}
+
+#footerArea .sns ul li{float: left; margin-right: 20px}
+#footerArea .sns ul li a{font-size: 20px;}
+	
+}
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width:480px) {
+	#wrap { min-width:320px; }
+}
+
+
+

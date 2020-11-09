@@ -1,0 +1,39 @@
+/* 회원정보수정 화면 */
+
+#content{width: 900px; margin: 0 auto; padding: 100px 0 150px 0;}
+.login_top{overflow: hidden; padding-top: 30px;}
+.login_top h2{font-family: 'Nanum Gothic', sans-serif; font-size: 50px; color: #333; font-weight: 800; position: relative; padding-bottom: 80px; float: left}
+.login_top h2::after{width: 900px; height: 5px; content: ''; background: #004b84; position: absolute; top: 80px; left: 0}
+.login_top .form_logo{display: block; width: 100px; height: 100px; background: url(../../images/form_logo.jpg); text-indent: -999px; overflow: hidden; float: right; margin-top: -30px}
+
+
+#content label::after{width: 8px; height: 8px; content: ''; border-radius: 4px; background: #004b84; position: absolute; top: 35px; left: 10px}
+#content label{display: inline-block; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; font-size: 20px; margin: 0 30px; width: 150px; }
+
+
+form>ul>li{padding: 15px 0; border-bottom: 1px solid #ccc; position: relative}
+form>ul>li:last-child{border-bottom: none}
+
+form ul li input{font-family: 'Nanum Gothic', sans-serif; border: none; background: #eaebef; padding: 5px; height: 40px; width: 400px; font-size: 16px}
+form ul li span{font-family: 'Nanum Gothic', sans-serif; font-size: 18px; line-height: 2.7em; color: #999}
+
+form>ul>li:nth-child(6) input{width: 100px}
+form>ul>li:nth-child(7) input{width: 200px}
+
+select{font-family: 'Nanum Gothic', sans-serif; border: none; background: #eaebef; height: 50px; width: 100px; font-size: 18px}
+
+form>ul>li:last-child{margin-top: 80px}
+form>ul>li:last-child ul{overflow: hidden}
+.join_end, .join_again{float: left; display: block; background: #004b84; color: #fff; text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 18px; width: 130px; padding: 10px; }
+
+form>ul>li:last-child .join_end{margin: 0 0 0 205px}
+form>ul>li:last-child .join_again{margin: 0 20px 0 20px}
+form>ul>li:last-child .join_end:hover{background: #fff; color: #004b84; border: 1px solid #004b84; width: 128px}
+form>ul>li:last-child .join_again:hover{background: #fff; color: #004b84; border: 1px solid #004b84; width: 128px}
+form>ul>li:last-child .join_c{background: #bbb; float: left; display: block; color: #fff; text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 18px; width: 130px; padding: 10px;}
+
+
+
+
+
+

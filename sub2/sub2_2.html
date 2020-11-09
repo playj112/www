@@ -1,0 +1,176 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Coreana-앰플엔</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/febc580729.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub2common.css">
+    <link rel="stylesheet" href="css/content2.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    
+     <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <? include "../common/sub_head.html" ?>
+    
+    <? $_GET['num']=2;
+      include "common/sub2_nav.html"; 
+    ?>
+    
+    
+    <!-- 본문콘텐츠영역 -->
+    <article id="content">
+        <div class="title_area">
+            <div class="line_map">
+                <span>Home </span>&gt;<span > 브랜드소개 </span>&gt;<strong> 앰플엔</strong>
+            </div>
+            <h2>AMPLE:N</h2>
+            <p>앰플엔 (피부 고민 집중 케어)</p>
+        </div>
+        <div class="content_area">
+            <div id="back_box"></div>
+            <div class="n_intro">
+                <div class="n_intro_text">
+                    <p>앰플엔로고</p>
+                    <p>AMPLE:N 앰플엔</p>
+                    <p>피부를 위한 피부과학</p>
+                    <p>피부 고민을 집중적으로 케어할 수 있도록 고민별로 카테고리를 구분하고,<br>앰플 중심으로 라인업을 구성한 코리아나만의 앰플 기반 브랜드입니다.</p>
+                    <p>#53가지 #앰플조합 #피부고민 #한방에해결</p>
+                </div>
+            </div>
+            <div class="n_philo">
+                <h3><span>AMPLE:N</span><br> Philosophy</h3>
+                <div class="n_philo_inner">
+                    <p><span>Dermo<br>Ampoulism</span><br>(더모 앰플리즘)</p>
+                    <i class="fas fa-equals"></i>
+                    <ul>
+                        <li>Dermatology<br>(피부과학)</li>
+                        <li><i class="fas fa-plus"></i>Ampoule<br>(앰플)</li>
+                        <li><i class="fas fa-plus"></i>-ism<br>(신념,원칙)</li>
+                    </ul>
+                    <p>더모 앰플리즘은 앰플을 기반으로 하여 피부의 여러가지 문제를 케어할 수 있다는 앰플엔의 믿음(신념)입니다.</p>
+                    <p>앰플엔은 앰플 안에 코리아나 화장품 연구소의 피부과학 노하우와 꼭 필요한 유효성분을 풍부하게 담아 피부 고민 해결을 위해 노력합니다.<br>더모 앰플리즘을 바탕으로 태어난 앰플엔의 앰플로 시간과 공간의 제약 없이 건강한 피부를 위한 변화를 시작해보세요.</p>
+                    <ul>
+                        <li>피부과학을<br>위한 30년<br>연구의 결실</li>
+                        <li>고민별<br>맞춤 처방</li>
+                        <li>저자극시험<br>완료</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="n_promise">
+                <h3><span>AMPLE:N</span><br> Promise</h3>
+                <div class="n_promise_inner">
+                    <p>피부 고민에 효과 좋은 화장품을 만드는 것이 앰플엔의 최우선 목적입니다.</p>
+                    <p>앰플엔에는 1,700번 이상의 포뮬러 테스트와 3,500개 이상의 제품을 개발한 코리아나의 노하우가 담겼을 뿐만 아니라,<br>기초제품을 기능성 화장품으로 보고하고 특허받은 성분을 배합하여 그 효과를 배가하기 위해 노력합니다.</p>
+                    <dl>
+                        <dt>기능성 제품</dt>
+                        <dd>앰플엔의 기초제품은 KFDA(식품의약안전처)에 보고한 기능성 화장품입니다. <span>(클렌징류 제외)</span></dd>
+                        <dt>특허 배합</dt>
+                        <dd>앰플엔의 모든 제품은 피부 고민에 효과적인 특허 성분을 엄선하여 처방한 피부과학의 결정체입니다.</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="n_product">
+                <ul>
+                    <li>
+                        <div>
+                            <p>펩타이드샷</p>
+                            <p>짱짱함이 느껴지는 펩타이드실로<br>탄력 넘치는 피부를 선사하는 탄력소환앰플</p>
+                            <a href="#none" id="openBtn1">+ more</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>센텔카밍샷</p>
+                            <p>끓이지 않은 병풀로 만든<br>결이 다른 진정 앰플</p>
+                            <a href="#none" id="openBtn2">+ more</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>히알루론샷</p>
+                            <p>뒤끝없이 촉촉한 수분 가득 충전해주는<br>가볍고 산뜻한 수분충전앰플</p>
+                            <a href="#">+ more</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>세라마이드샷</p>
+                            <p>연약한 피부장벽을 강화하는데 도움을<br>주는 고농축 세라보습앰플</p>
+                            <a href="#">+ more</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>24케이골드샷</p>
+                            <p>24k 골드와 골드리프팅실로<br>피부의 황금기를 되찾는 황금기 앰플</p>
+                            <a href="#">+ more</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>브이씨샷</p>
+                            <p>피부에 조명을 밝혀주는 빛타민 광채 앰플</p>
+                            <a href="#">+ more</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>필링샷</p>
+                            <p>묵은 각질을 토닥토닥 잠 재워주는 앰플</p>
+                            <a href="#">+ more</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>아크네샷</p>
+                            <p>여드름피부에 사용 적합한 여드름톡톡앰플</p>
+                            <a href="#">+ more</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="npopbox1" class="npopbox">
+                <img src="images/content2/npop_01.jpg" alt="">
+                <dl>
+                    <dt>AMPLE:N 펩타이드샷</dt>
+                    <dd>피부 탄력을 케어하는 펩타이드 3종을 엄선하여, 촘촘한 피부 탄력 케어 효과를 느낄 수 있습니다.</dd>
+                    <dd><span>* 용량 :</span> 30ml</dd>
+                    <dd><span>* 사용법 :</span> 아침 저녁 토너 다음 단계에서 적당량을 덜어 얼굴 전체에 펴 발라 줍니다.</dd>
+                </dl>
+                <a href="javascript:void(0);" class="closeBtn"><img src="images/content2/pop_close.png" alt="닫힘버튼"></a>
+            </div>
+            <div id="npopbox2" class="npopbox">
+                <img src="images/content2/npop_02.jpg" alt="">
+                <dl>
+                    <dt>AMPLE:N 센텔카밍샷</dt>
+                    <dd>진정 유효성분을 진하게 담기 위한 농축 기술 접목으로 탄생된 병풀줄기세포(캘러스) 배양액 성분이 고농축 함유되어 있습니다.</dd>
+                    <dd><span>* 용량 :</span> 30ml</dd>
+                    <dd><span>* 사용법 :</span> 아침 저녁 토너 다음 단계에서 적당량을 덜어 얼굴 전체에 두드리며 흡수시켜줍니다.</dd>
+                </dl>
+                <a href="javascript:void(0);" class="closeBtn"><img src="images/content2/pop_close.png" alt="닫힘버튼"></a>
+            </div>
+        </div>
+        
+    </article>
+    
+    <? include "../common/sub_foot.html" ?>
+    
+    <script src="js/n_popup.js"></script>
+    
+</body>
+</html>
